@@ -4,8 +4,8 @@ import java.util.*;
 
 public class Movie {
 	private int yearMade;
-	private List<Actor> actors;
-	private Director director;
+	private List<Actor> actors= new ArrayList<>();
+	private Director director = new Director();
 	private String title;
 	private String[] genre;
 	private int afiNum;
@@ -72,7 +72,10 @@ public class Movie {
 	{
 		this.afiNum = afiNum;
 	}
-	
-	
-	
+	@Override
+	public String toString()
+	{
+		return "Movie [yearMade=" + yearMade + ", actors=" + actors + ", director=" + director + ", title=" + title
+				+ ", genre=" + Arrays.toString(genre) + ", afiNum=" + afiNum + "]";
+	}
 }

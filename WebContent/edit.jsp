@@ -15,12 +15,15 @@
 			<th>Title</th>
 			<th>Year</th>
 		</tr>
-		<c:forEach var="movie" items="${genres}">
+		<c:forEach var="movie" items="${movies}">
 			<tr>
 				<td>${movie.afiNum}</td>
 				<td><a href="editMovie.do?name=${movie.title}">${movie.title}</a></td>
 				<td>${movie.yearMade}</td>
-				<td><a href="deleteMovie.do?name=${movie.title}">Delete</a></td>
+				<td><form action="deleteMovie.do" method="POST">
+						<input type="hidden" name="title" value="${movie.title}" /> <input
+							type="submit" value="Delete" />
+					</form></td>
 			</tr>
 		</c:forEach>
 	</table>

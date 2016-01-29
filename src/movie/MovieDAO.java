@@ -9,4 +9,5 @@ public interface MovieDAO {
 	public void addMovie(Movie movie);
 	public List<Movie> getAllMovies();
 	public void removeMovie(Movie movie);
+	public void editMovie(Movie movie);
 }

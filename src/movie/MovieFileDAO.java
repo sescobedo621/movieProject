@@ -101,11 +101,41 @@ public class MovieFileDAO implements MovieDAO {
 	@Override
 	public void removeMovie(Movie movie)
 	{
+		int num = -1;
 		for (Movie mov : afiList) {
 			if(mov.getTitle().equals(movie.getTitle())){
-				afiList.remove(afiList.indexOf(mov));
+				num =afiList.indexOf(mov);
+				break;
 			}
 		}
+		if(num != -1){
+			afiList.remove(num);
+		}
+	}
+
+	@Override
+	public void editMovie(Movie movie)
+	{
+		System.out.println("in dao");
+		int num =-1;
+		String[] genre = null;
+		List<Actor> actors=null;
+		for (Movie mov : afiList) {
+			System.out.println(mov);
+			if(mov.getAfiNum() == movie.getAfiNum()){
+				genre = mov.getGenre();
+				actors= mov.getActors();
+				num = afiList.indexOf(mov);
+				System.out.println(num);
+				break;
+			}
+		}
+		if(num != -1){
+			movie.setGenre(genre);
+			movie.setActors(actors);
+			afiList.set(num, movie);
+		}
+		
 	}
 	
 	

@@ -62,26 +62,45 @@ public class MovieController {
 	}
 
 	@RequestMapping(path = "NewMovie.do", method = RequestMethod.POST)
-	public ModelAndView addMovie(Movie movie, @ModelAttribute("movieList") List<Movie> mov)
+	public ModelAndView addMovie(Movie movie)
 	{
 		movieDao.addMovie(movie);
-		mov.add(movie);
 		ModelAndView mv = getAllMovies();
 		return mv;
 	}
-	@RequestMapping(path = "deleteMovie.do", params="name", method = RequestMethod.POST)
-	public ModelAndView deleteMovie(Movie movie, @ModelAttribute("movieList") List<Movie> mov)
+	@RequestMapping(path = "deleteMovie.do", method = RequestMethod.POST)
+	public ModelAndView deleteMovie(Movie movie)
 	{
 		movieDao.removeMovie(movie);
-		mov.remove(mov.indexOf(movie));
 		ModelAndView mv = getAllMovies();
 		return mv;
 	}
 	
-	@RequestMapping(path="editMovie.do", params= "name", method=RequestMethod.GET)
+	@RequestMapping(path="editMovie.do", params="name", method=RequestMethod.GET)
 	public ModelAndView editMovie(@RequestParam("name") String name){
+		Movie movie = movieDao.getMovieByName(name);
+		ModelAndView mv = new ModelAndView();
+		mv.setViewName("update.jsp");
+		mv.addObject("movie", movie);
 		
+		return mv;
+	}
+	
+	@RequestMapping(path="updateMovie.do", method=RequestMethod.POST)
+	public ModelAndView updateMovie(Movie movie){
+		System.out.println(movie);
+		movieDao.editMovie(movie);
+		ModelAndView mv = getByName(movie.getTitle());
+		return mv;
+	}
+	
+	@RequestMapping(path="editMovie.do", method=RequestMethod.GET)
+	public ModelAndView editList(@ModelAttribute("movieList") List<Movie> movie){
 		
-		return null;
+		ModelAndView mv = new ModelAndView();
+		mv.setViewName("edit.jsp");
+		mv.addObject("movies", movieDao.getAllMovies());
+		
+		return mv;
 	}
 }
