@@ -1,0 +1,101 @@
+AFI Rank,Movie Title,Year,Genre,Director,Actor,Actor,Actor,Actor
+1,Citizen Kane,1941,Drama/Mystery,Orson Welles,Orson Welles,Joseph Cotten,Dorothy Comingore,Agnes Moorehead
+2,The Godfather,1972,Drama/Crime,Francis Ford Coppola,Marlon Brando,Al Pacino,James Caan,Robert Duvall
+3,Casablanca,1942,Drama/Romance,Michael Curtiz,Humprey Bogart,Ingrid Bergman,Paul Henreird,Claude Rains
+4,Raging Bull,1980,Drama/Sport,Martin Scorsese,Robert De Niro,Cathy Moriarty,Joe Pesci,Frank Vincent
+5,Singin' in the Rain,1952,Comedy/Musical,Stanely Donen,Gene Kelly,Donald O'Connor,Debbie Reynolds,Jean Hagen
+6,Gone with the Wind,1939,Drama/Romance,Victor Fleming,Clark Gable,Vivien Leigh,Thomas Mitchell,Hattie McDaniel
+7,Lawrence of Arabia,1962,Adventure/Drama,David Lean,Peter O'Toole,Alec Guinness,Anthony Quinn,Jack Hawkins
+8,Schindler's List,1993,Drama,Steven Spielberg,Liam Neeson,Ralph Fiennes,Ben Kingsley,Embeth Davidtz
+9,Vertigo,1958,Thriller/Mystery,Alfred Hitchcock,James Stewart,Kim Novack,Barbara Bel Geddes,Tom Helmore
+10,The Wizard of Oz,1939,Fantasy/Adventure,Victor Fleming,Judy Garland,Frank Morgan,Ray Bolger,Bert Hahr
+11,City Lights,1931,Comedy,Charlie Chaplin,Charlie Chaplin,Viginia Cherrill,Florence Lee,Harry Myers
+12,The Searchers,1956,Adventure/Western,John Ford,John Wayne,Jeffrey Hunter,Vera Miles,Natalie Wood
+13,Star Wars,1977,Action/Adventure/Fantasy,George Lucas,Mark Hamill,Harrison Ford,Carrie Fisher,James Earl Jones
+14,Psycho,1960,Horror/Mystery/Thriller,Alfred Hitchcock,Anthony Perkins,Janet Leigh,Vera Miles,John Gavin
+15,2001: A Space Odessy,1968,Sci-Fi/Mystery,Stanely Kubrick,Keir Dulea,George Lockwood,William Sylvester,Margaret Tyzack
+16,Sunset BLVD.,1950,Drama/Film-Noir,Billy Wilder,William Holden,Gloria Swanson,Erich von Stroheim,Fred Clark
+17,The Graduate,1967,Comedy/Drama/Romance,Mike Nichols,Dustin Hoffman,Anne Bancroft,Katharine Ross,William Daniels
+18,The General,1927,Action/Adventure/Comedy,Clyde Bruckman,Buster Keaton,Marion Mack,Glen Cavender,Jim Farley
+19,On the Waterfron,1954,Crime/Drama/Thriller,Eliza Kazan,Marlon Brando,Karl Malden,Lee J. Cobb,Rod Steiger
+20,It's A Wonderful Life,1946,Drama/Family/Fantasy,Frank Capra,James Stewart,Donna Reed,Lionel Barrymore,Thomas Mitchell
+21,Chinatown,1974,Drama/Mystery,Orson Welles,Orson Welles,Joseph Cotten,Dorothy Comingore,Agnes Moorehead
+22,Some Like It Hot,1959,Drama/Crime,Francis Ford Coppola,Marlon Brando,Al Pacino,James Caan,Robert Duvall
+23,The Grapes of Wrath,1940,Drama/Romance,Michael Curtiz,Humprey Bogart,Ingrid Bergman,Paul Henreird,Claude Rains
+24,E.T. The Extra-Terrestrial,1982,Drama/Sport,Martin Scorsese,Robert De Niro,Cathy Moriarty,Joe Pesci,Frank Vincent
+25,To Kill A Mockingbird,1962,Comedy/Musical,Stanely Donen,Gene Kelly,Donald O'Connor,Debbie Reynolds,Jean Hagen
+26,Mr. Smith Goes to Washinton,1939,Drama/Romance,Victor Fleming,Clark Gable,Vivien Leigh,Thomas Mitchell,Hattie McDaniel
+27,High Noon,1952,Adventure/Drama,David Lean,Peter O'Toole,Alec Guinness,Anthony Quinn,Jack Hawkins
+28,All About Eve,1950,Drama,Steven Spielberg,Liam Neeson,Ralph Fiennes,Ben Kingsley,Embeth Davidtz
+29,Double Indemnity,1944,Thriller/Mystery,Alfred Hitchcock,James Stewart,Kim Novack,Barbara Bel Geddes,Tom Helmore
+30,Apocalypse Now,1979,Fantasy/Adventure,Victor Fleming,Judy Garland,Frank Morgan,Ray Bolger,Bert Hahr
+31,The Maltese Falcon,1941,Comedy,Charlie Chaplin,Charlie Chaplin,Viginia Cherrill,Florence Lee,Harry Myers
+32,The Godfather Part II,1974,Adventure/Western,John Ford,John Wayne,Jeffrey Hunter,Vera Miles,Natalie Wood
+33,One Flew Over The Cuckoo's Nest,1975,Action/Adventure/Fantasy,George Lucas,Mark Hamill,Harrison Ford,Carrie Fisher,James Earl Jones
+34,Snow White and the Seven Dwarfs,1937,Horror/Mystery/Thriller,Alfred Hitchcock,Anthony Perkins,Janet Leigh,Vera Miles,John Gavin
+35,Annie Hall,1977,Sci-Fi/Mystery,Stanely Kubrick,Keir Dulea,George Lockwood,William Sylvester,Margaret Tyzack
+36,The Bridge on the River Kwai,1957,Drama/Film-Noir,Billy Wilder,William Holden,Gloria Swanson,Erich von Stroheim,Fred Clark
+37,The Best Years of our Lives,1946,Comedy/Drama/Romance,Mike Nichols,Dustin Hoffman,Anne Bancroft,Katharine Ross,William Daniels
+38,The Treasure of the Sierra Madre,1948,Action/Adventure/Comedy,Clyde Bruckman,Buster Keaton,Marion Mack,Glen Cavender,Jim Farley
+39,Dr. Strangelove,1964,Crime/Drama/Thriller,Eliza Kazan,Marlon Brando,Karl Malden,Lee J. Cobb,Rod Steiger
+40,The Sound of Music,1965,Drama/Family/Fantasy,Frank Capra,James Stewart,Donna Reed,Lionel Barrymore,Thomas Mitchell
+41,King Kong,1933,Drama/Mystery,Orson Welles,Orson Welles,Joseph Cotten,Dorothy Comingore,Agnes Moorehead
+42,Bonnie and Clyde,1967,Drama/Crime,Francis Ford Coppola,Marlon Brando,Al Pacino,James Caan,Robert Duvall
+43,Midnight Cowboy,1969,Drama/Romance,Michael Curtiz,Humprey Bogart,Ingrid Bergman,Paul Henreird,Claude Rains
+44,The Philadephia Story,1940,Drama/Sport,Martin Scorsese,Robert De Niro,Cathy Moriarty,Joe Pesci,Frank Vincent
+45,Shane,1953,Comedy/Musical,Stanely Donen,Gene Kelly,Donald O'Connor,Debbie Reynolds,Jean Hagen
+46,It Happened One Night,1934,Drama/Romance,Victor Fleming,Clark Gable,Vivien Leigh,Thomas Mitchell,Hattie McDaniel
+47,A Streetcar Named Desire,1951,Adventure/Drama,David Lean,Peter O'Toole,Alec Guinness,Anthony Quinn,Jack Hawkins
+48,Rear Window,1954,Drama,Steven Spielberg,Liam Neeson,Ralph Fiennes,Ben Kingsley,Embeth Davidtz
+49,Intolerance,1916,Thriller/Mystery,Alfred Hitchcock,James Stewart,Kim Novack,Barbara Bel Geddes,Tom Helmore
+50,The Lord of the Rings: The Fellowship of the Ring,2001,Fantasy/Adventure,Victor Fleming,Judy Garland,Frank Morgan,Ray Bolger,Bert Hahr
+51,West Side Story,1961,Comedy,Charlie Chaplin,Charlie Chaplin,Viginia Cherrill,Florence Lee,Harry Myers
+52,Taxi Driver,1976,Adventure/Western,John Ford,John Wayne,Jeffrey Hunter,Vera Miles,Natalie Wood
+53,The Deer Hunter,1978,Action/Adventure/Fantasy,George Lucas,Mark Hamill,Harrison Ford,Carrie Fisher,James Earl Jones
+54,M*A*S*H,1970,Horror/Mystery/Thriller,Alfred Hitchcock,Anthony Perkins,Janet Leigh,Vera Miles,John Gavin
+55,North by Northwest,1959,Sci-Fi/Mystery,Stanely Kubrick,Keir Dulea,George Lockwood,William Sylvester,Margaret Tyzack
+56,Jaws,1975,Drama/Film-Noir,Billy Wilder,William Holden,Gloria Swanson,Erich von Stroheim,Fred Clark
+57,Rocky,1976,Comedy/Drama/Romance,Mike Nichols,Dustin Hoffman,Anne Bancroft,Katharine Ross,William Daniels
+58,The Gold Rush,1925,Action/Adventure/Comedy,Clyde Bruckman,Buster Keaton,Marion Mack,Glen Cavender,Jim Farley
+59,Nashville,1975,Crime/Drama/Thriller,Eliza Kazan,Marlon Brando,Karl Malden,Lee J. Cobb,Rod Steiger
+60,Duck Soup,1933,Drama/Family/Fantasy,Frank Capra,James Stewart,Donna Reed,Lionel Barrymore,Thomas Mitchell
+61,Sullivan's Travels,1941,Drama/Mystery,Orson Welles,Orson Welles,Joseph Cotten,Dorothy Comingore,Agnes Moorehead
+62,American Graffiti,1973,Drama/Crime,Francis Ford Coppola,Marlon Brando,Al Pacino,James Caan,Robert Duvall
+63,Cabaret,1972,Drama/Romance,Michael Curtiz,Humprey Bogart,Ingrid Bergman,Paul Henreird,Claude Rains
+64,Network,1976,Drama/Sport,Martin Scorsese,Robert De Niro,Cathy Moriarty,Joe Pesci,Frank Vincent
+65,The African Queen,1951,Comedy/Musical,Stanely Donen,Gene Kelly,Donald O'Connor,Debbie Reynolds,Jean Hagen
+66,Raiders of the Lost Ark,1981,Drama/Romance,Victor Fleming,Clark Gable,Vivien Leigh,Thomas Mitchell,Hattie McDaniel
+67,Who's Afraid of Virginia Woolf?,1966,Adventure/Drama,David Lean,Peter O'Toole,Alec Guinness,Anthony Quinn,Jack Hawkins
+68,Unforgiven,1992,Drama,Steven Spielberg,Liam Neeson,Ralph Fiennes,Ben Kingsley,Embeth Davidtz
+69,Tootsie,1982,Thriller/Mystery,Alfred Hitchcock,James Stewart,Kim Novack,Barbara Bel Geddes,Tom Helmore
+70,A Clockwork Orange,1971,Fantasy/Adventure,Victor Fleming,Judy Garland,Frank Morgan,Ray Bolger,Bert Hahr
+71,Saving Private Ryan,1998,Comedy,Charlie Chaplin,Charlie Chaplin,Viginia Cherrill,Florence Lee,Harry Myers
+72,The Shawshank Redemption,1994,Adventure/Western,John Ford,John Wayne,Jeffrey Hunter,Vera Miles,Natalie Wood
+73,Butch Cassidy and the Sundance Kid,1969,Action/Adventure/Fantasy,George Lucas,Mark Hamill,Harrison Ford,Carrie Fisher,James Earl Jones
+74,The Silence of the Lambs,1991,Horror/Mystery/Thriller,Alfred Hitchcock,Anthony Perkins,Janet Leigh,Vera Miles,John Gavin
+75,In the Heat of the Night,1967,Sci-Fi/Mystery,Stanely Kubrick,Keir Dulea,George Lockwood,William Sylvester,Margaret Tyzack
+76,Forrest Gump,1994,Drama/Film-Noir,Billy Wilder,William Holden,Gloria Swanson,Erich von Stroheim,Fred Clark
+77,All The President's Men,1976,Comedy/Drama/Romance,Mike Nichols,Dustin Hoffman,Anne Bancroft,Katharine Ross,William Daniels
+78,Modern Times,1936,Action/Adventure/Comedy,Clyde Bruckman,Buster Keaton,Marion Mack,Glen Cavender,Jim Farley
+79,The Wild Bunch,1969,Crime/Drama/Thriller,Eliza Kazan,Marlon Brando,Karl Malden,Lee J. Cobb,Rod Steiger
+80,The Apartment,1960,Drama/Family/Fantasy,Frank Capra,James Stewart,Donna Reed,Lionel Barrymore,Thomas Mitchell
+81,Spartacus,1960,Drama/Mystery,Orson Welles,Orson Welles,Joseph Cotten,Dorothy Comingore,Agnes Moorehead
+82,Sunrise,1927,Drama/Crime,Francis Ford Coppola,Marlon Brando,Al Pacino,James Caan,Robert Duvall
+83,Titanic,1927,Drama/Romance,Michael Curtiz,Humprey Bogart,Ingrid Bergman,Paul Henreird,Claude Rains
+84,Easy Rider,1969,Drama/Sport,Martin Scorsese,Robert De Niro,Cathy Moriarty,Joe Pesci,Frank Vincent
+85,A Night at the Opera,1935,Comedy/Musical,Stanely Donen,Gene Kelly,Donald O'Connor,Debbie Reynolds,Jean Hagen
+86,Platoon,1986,Drama/Romance,Victor Fleming,Clark Gable,Vivien Leigh,Thomas Mitchell,Hattie McDaniel
+87,12 Angry Men,1957,Adventure/Drama,David Lean,Peter O'Toole,Alec Guinness,Anthony Quinn,Jack Hawkins
+88,Bringing Up Baby,1938,Drama,Steven Spielberg,Liam Neeson,Ralph Fiennes,Ben Kingsley,Embeth Davidtz
+89,The Sixth Sense,1999,Thriller/Mystery,Alfred Hitchcock,James Stewart,Kim Novack,Barbara Bel Geddes,Tom Helmore
+90,Swing Time,1936,Fantasy/Adventure,Victor Fleming,Judy Garland,Frank Morgan,Ray Bolger,Bert Hahr
+91,Sophie's Choice,1982,Comedy,Charlie Chaplin,Charlie Chaplin,Viginia Cherrill,Florence Lee,Harry Myers
+92,Goodfellas,1990,Adventure/Western,John Ford,John Wayne,Jeffrey Hunter,Vera Miles,Natalie Wood
+93,The French Connection,1971,Action/Adventure/Fantasy,George Lucas,Mark Hamill,Harrison Ford,Carrie Fisher,James Earl Jones
+94,Pulp Fiction,1994,Horror/Mystery/Thriller,Alfred Hitchcock,Anthony Perkins,Janet Leigh,Vera Miles,John Gavin
+95,The Last Picture Show,1971,Sci-Fi/Mystery,Stanely Kubrick,Keir Dulea,George Lockwood,William Sylvester,Margaret Tyzack
+96,Do the Right Thing,1989,Drama/Film-Noir,Billy Wilder,William Holden,Gloria Swanson,Erich von Stroheim,Fred Clark
+97,Blade Runner,1982,Comedy/Drama/Romance,Mike Nichols,Dustin Hoffman,Anne Bancroft,Katharine Ross,William Daniels
+98,Yankee Doodle Dandy,1942,Action/Adventure/Comedy,Clyde Bruckman,Buster Keaton,Marion Mack,Glen Cavender,Jim Farley
+99,Toy Story,1995,Crime/Drama/Thriller,Eliza Kazan,Marlon Brando,Karl Malden,Lee J. Cobb,Rod Steiger
+100,Ben-Hur,1959,Drama/Family/Fantasy,Frank Capra,James Stewart,Donna Reed,Lionel Barrymore,Thomas Mitchell
