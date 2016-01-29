@@ -9,4 +9,5 @@ public class Actor extends Person {
 	public Actor(String fn, String ln){
 		super(fn, ln);
 	}
+	
 }

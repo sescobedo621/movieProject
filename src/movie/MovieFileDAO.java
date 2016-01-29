@@ -116,12 +116,10 @@ public class MovieFileDAO implements MovieDAO {
 	@Override
 	public void editMovie(Movie movie)
 	{
-		System.out.println("in dao");
 		int num =-1;
 		String[] genre = null;
 		List<Actor> actors=null;
 		for (Movie mov : afiList) {
-			System.out.println(mov);
 			if(mov.getAfiNum() == movie.getAfiNum()){
 				genre = mov.getGenre();
 				actors= mov.getActors();
@@ -138,7 +136,44 @@ public class MovieFileDAO implements MovieDAO {
 		
 	}
 	
+	public void deleteActor(Actor actor, Movie movie){
+		Movie m = null;
+		int num =-1;
+		System.out.println("in deleteActor");
+		for (Movie mov : afiList) {
+			if(mov.getTitle().equals(movie.getTitle())){
+				
+				m = mov;
+				 num = mov.getActors().indexOf(actor);
+				 System.out.println(num);
+				break;
+			}
+		}
+		if(num != -1){
+			m.getActors().remove(num);
+		}
+	}
+	public Actor getActor(String fn, String ln){
+		Actor act = null;
+		for (Movie movie : afiList) {
+			for (Actor actor : movie.getActors()) {
+				if(actor.getFirstName().equals(fn) && actor.getLastName().equals(ln)){
+					act = actor;
+					break;
+				}
+			}
+		}
+		
+		return act;
+	}
 	
-	
-	
+	public void addActor(Movie movie, Actor actor){
+		for (Movie movie2 : afiList) {
+			if(movie2.equals(movie)){
+				movie2.getActors().add(actor);
+				break;
+			}
+		}
+		
+	}
 }

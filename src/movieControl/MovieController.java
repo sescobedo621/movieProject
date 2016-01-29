@@ -2,8 +2,11 @@ package movieControl;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -60,12 +63,19 @@ public class MovieController {
 
 		return mv;
 	}
-
+	
 	@RequestMapping(path = "NewMovie.do", method = RequestMethod.POST)
-	public ModelAndView addMovie(Movie movie)
+	public ModelAndView addMovie(@Valid Movie movie, Errors error)
 	{
 		movieDao.addMovie(movie);
-		ModelAndView mv = getAllMovies();
+		ModelAndView mv = null;
+		if(error.getErrorCount() != 0){
+			mv = new ModelAndView();
+			mv.setViewName("add.html");
+			mv.addObject("movie", movie);
+			return mv;
+		}
+				mv =getAllMovies();
 		return mv;
 	}
 	@RequestMapping(path = "deleteMovie.do", method = RequestMethod.POST)
@@ -87,10 +97,13 @@ public class MovieController {
 	}
 	
 	@RequestMapping(path="updateMovie.do", method=RequestMethod.POST)
-	public ModelAndView updateMovie(Movie movie){
-		System.out.println(movie);
+	public ModelAndView updateMovie(@Valid Movie movie, Errors error){
 		movieDao.editMovie(movie);
-		ModelAndView mv = getByName(movie.getTitle());
+		ModelAndView mv = null;
+		if(error.getErrorCount() != 0){
+			mv = editMovie(movie.getTitle());
+		}
+		 mv = getByName(movie.getTitle());
 		return mv;
 	}
 	

@@ -10,5 +10,6 @@
 
 
 	<context:component-scan base-package="movieControl" />
+	<mvc:annotation-driven/>
 	<bean class="movie.MovieFileDAO"/>
 </beans>
