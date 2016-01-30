@@ -38,7 +38,7 @@ public class MovieFileDAO implements MovieDAO {
 					actor.add(new Actor(act[0], act[1]));
 				}
 
-				afiList.add(new Movie(afi, title, yearMade, genre, dir, actor));
+				afiList.add(new Movie(afi, title, yearMade, genre, dir, actor, tokens[tokens.length-1]));
 
 			}
 		} catch (Exception e) {

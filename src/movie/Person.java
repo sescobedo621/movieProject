@@ -1,7 +1,11 @@
 package movie;
 
+import javax.validation.constraints.Size;
+
 public abstract class Person {
+	@Size(min=2)
 	private String firstName;
+	@Size(min=2)
 	private String lastName;
 	private String birthYear;
 	private String deathYear;

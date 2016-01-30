@@ -7,6 +7,7 @@ import java.util.List;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 public class Movie {
 	@Min (1896)
@@ -14,16 +15,17 @@ public class Movie {
 	private int yearMade;
 	private List<Actor> actors= new ArrayList<>();
 	private Director director = new Director();
-	@NotNull
+	@Size(min=2)
 	private String title;
 	private String[] genre;
 	private int afiNum;
+	private String video;
 	
 	public Movie(){
 		
 	}
 	
-	public Movie(int afiNum,String title, int yearMade,String[] genre, Director director, List<Actor> actors )
+	public Movie(int afiNum,String title, int yearMade,String[] genre, Director director, List<Actor> actors, String video)
 	{
 		this.yearMade = yearMade;
 		this.actors = actors;
@@ -31,6 +33,7 @@ public class Movie {
 		this.title = title;
 		this.genre = genre;
 		this.afiNum = afiNum;
+		this.video = video;
 	}
 	
 	public int getYearMade()
@@ -117,5 +120,14 @@ public class Movie {
 			return false;
 		return true;
 	}
-	
+
+	public String getVideo()
+	{
+		return video;
+	}
+
+	public void setVideo(String video)
+	{
+		this.video = video;
+	}
 }

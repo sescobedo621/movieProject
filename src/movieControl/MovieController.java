@@ -63,7 +63,15 @@ public class MovieController {
 
 		return mv;
 	}
-	
+	@RequestMapping(path="addMovie.do", method=RequestMethod.GET)
+	public ModelAndView addMovie(){
+		Movie movie = new Movie();
+		ModelAndView mv = new ModelAndView();
+		mv.setViewName("add.jsp");
+		mv.addObject("movie", movie);
+		
+		return mv;
+	}
 	@RequestMapping(path = "NewMovie.do", method = RequestMethod.POST)
 	public ModelAndView addMovie(@Valid Movie movie, Errors error)
 	{
@@ -71,7 +79,7 @@ public class MovieController {
 		ModelAndView mv = null;
 		if(error.getErrorCount() != 0){
 			mv = new ModelAndView();
-			mv.setViewName("add.html");
+			mv.setViewName("add.jsp");
 			mv.addObject("movie", movie);
 			return mv;
 		}
