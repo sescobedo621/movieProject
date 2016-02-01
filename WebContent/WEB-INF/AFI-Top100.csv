@@ -1,101 +1,101 @@
-AFI Rank,Movie Title,Year,Genre,Director,Actor,Actor,Actor,Actor
-1,Citizen Kane,1941,Drama/Mystery,Orson Welles,Orson Welles,Joseph Cotten,Dorothy Comingore,Agnes Moorehead
-2,The Godfather,1972,Drama/Crime,Francis Ford Coppola,Marlon Brando,Al Pacino,James Caan,Robert Duvall
-3,Casablanca,1942,Drama/Romance,Michael Curtiz,Humprey Bogart,Ingrid Bergman,Paul Henreird,Claude Rains
-4,Raging Bull,1980,Drama/Sport,Martin Scorsese,Robert De Niro,Cathy Moriarty,Joe Pesci,Frank Vincent
-5,Singin' in the Rain,1952,Comedy/Musical,Stanely Donen,Gene Kelly,Donald O'Connor,Debbie Reynolds,Jean Hagen
-6,Gone with the Wind,1939,Drama/Romance,Victor Fleming,Clark Gable,Vivien Leigh,Thomas Mitchell,Hattie McDaniel
-7,Lawrence of Arabia,1962,Adventure/Drama,David Lean,Peter O'Toole,Alec Guinness,Anthony Quinn,Jack Hawkins
-8,Schindler's List,1993,Drama,Steven Spielberg,Liam Neeson,Ralph Fiennes,Ben Kingsley,Embeth Davidtz
-9,Vertigo,1958,Thriller/Mystery,Alfred Hitchcock,James Stewart,Kim Novack,Barbara Bel Geddes,Tom Helmore
-10,The Wizard of Oz,1939,Fantasy/Adventure,Victor Fleming,Judy Garland,Frank Morgan,Ray Bolger,Bert Hahr
-11,City Lights,1931,Comedy,Charlie Chaplin,Charlie Chaplin,Viginia Cherrill,Florence Lee,Harry Myers
-12,The Searchers,1956,Adventure/Western,John Ford,John Wayne,Jeffrey Hunter,Vera Miles,Natalie Wood
-13,Star Wars,1977,Action/Adventure/Fantasy,George Lucas,Mark Hamill,Harrison Ford,Carrie Fisher,James Earl Jones
-14,Psycho,1960,Horror/Mystery/Thriller,Alfred Hitchcock,Anthony Perkins,Janet Leigh,Vera Miles,John Gavin
-15,2001: A Space Odessy,1968,Sci-Fi/Mystery,Stanely Kubrick,Keir Dulea,George Lockwood,William Sylvester,Margaret Tyzack
-16,Sunset BLVD.,1950,Drama/Film-Noir,Billy Wilder,William Holden,Gloria Swanson,Erich von Stroheim,Fred Clark
-17,The Graduate,1967,Comedy/Drama/Romance,Mike Nichols,Dustin Hoffman,Anne Bancroft,Katharine Ross,William Daniels
-18,The General,1927,Action/Adventure/Comedy,Clyde Bruckman,Buster Keaton,Marion Mack,Glen Cavender,Jim Farley
-19,On the Waterfron,1954,Crime/Drama/Thriller,Eliza Kazan,Marlon Brando,Karl Malden,Lee J. Cobb,Rod Steiger
-20,It's A Wonderful Life,1946,Drama/Family/Fantasy,Frank Capra,James Stewart,Donna Reed,Lionel Barrymore,Thomas Mitchell
-21,Chinatown,1974,Drama/Mystery,Orson Welles,Orson Welles,Joseph Cotten,Dorothy Comingore,Agnes Moorehead
-22,Some Like It Hot,1959,Drama/Crime,Francis Ford Coppola,Marlon Brando,Al Pacino,James Caan,Robert Duvall
-23,The Grapes of Wrath,1940,Drama/Romance,Michael Curtiz,Humprey Bogart,Ingrid Bergman,Paul Henreird,Claude Rains
-24,E.T. The Extra-Terrestrial,1982,Drama/Sport,Martin Scorsese,Robert De Niro,Cathy Moriarty,Joe Pesci,Frank Vincent
-25,To Kill A Mockingbird,1962,Comedy/Musical,Stanely Donen,Gene Kelly,Donald O'Connor,Debbie Reynolds,Jean Hagen
-26,Mr. Smith Goes to Washinton,1939,Drama/Romance,Victor Fleming,Clark Gable,Vivien Leigh,Thomas Mitchell,Hattie McDaniel
-27,High Noon,1952,Adventure/Drama,David Lean,Peter O'Toole,Alec Guinness,Anthony Quinn,Jack Hawkins
-28,All About Eve,1950,Drama,Steven Spielberg,Liam Neeson,Ralph Fiennes,Ben Kingsley,Embeth Davidtz
-29,Double Indemnity,1944,Thriller/Mystery,Alfred Hitchcock,James Stewart,Kim Novack,Barbara Bel Geddes,Tom Helmore
-30,Apocalypse Now,1979,Fantasy/Adventure,Victor Fleming,Judy Garland,Frank Morgan,Ray Bolger,Bert Hahr
-31,The Maltese Falcon,1941,Comedy,Charlie Chaplin,Charlie Chaplin,Viginia Cherrill,Florence Lee,Harry Myers
-32,The Godfather Part II,1974,Adventure/Western,John Ford,John Wayne,Jeffrey Hunter,Vera Miles,Natalie Wood
-33,One Flew Over The Cuckoo's Nest,1975,Action/Adventure/Fantasy,George Lucas,Mark Hamill,Harrison Ford,Carrie Fisher,James Earl Jones
-34,Snow White and the Seven Dwarfs,1937,Horror/Mystery/Thriller,Alfred Hitchcock,Anthony Perkins,Janet Leigh,Vera Miles,John Gavin
-35,Annie Hall,1977,Sci-Fi/Mystery,Stanely Kubrick,Keir Dulea,George Lockwood,William Sylvester,Margaret Tyzack
-36,The Bridge on the River Kwai,1957,Drama/Film-Noir,Billy Wilder,William Holden,Gloria Swanson,Erich von Stroheim,Fred Clark
-37,The Best Years of our Lives,1946,Comedy/Drama/Romance,Mike Nichols,Dustin Hoffman,Anne Bancroft,Katharine Ross,William Daniels
-38,The Treasure of the Sierra Madre,1948,Action/Adventure/Comedy,Clyde Bruckman,Buster Keaton,Marion Mack,Glen Cavender,Jim Farley
-39,Dr. Strangelove,1964,Crime/Drama/Thriller,Eliza Kazan,Marlon Brando,Karl Malden,Lee J. Cobb,Rod Steiger
-40,The Sound of Music,1965,Drama/Family/Fantasy,Frank Capra,James Stewart,Donna Reed,Lionel Barrymore,Thomas Mitchell
-41,King Kong,1933,Drama/Mystery,Orson Welles,Orson Welles,Joseph Cotten,Dorothy Comingore,Agnes Moorehead
-42,Bonnie and Clyde,1967,Drama/Crime,Francis Ford Coppola,Marlon Brando,Al Pacino,James Caan,Robert Duvall
-43,Midnight Cowboy,1969,Drama/Romance,Michael Curtiz,Humprey Bogart,Ingrid Bergman,Paul Henreird,Claude Rains
-44,The Philadephia Story,1940,Drama/Sport,Martin Scorsese,Robert De Niro,Cathy Moriarty,Joe Pesci,Frank Vincent
-45,Shane,1953,Comedy/Musical,Stanely Donen,Gene Kelly,Donald O'Connor,Debbie Reynolds,Jean Hagen
-46,It Happened One Night,1934,Drama/Romance,Victor Fleming,Clark Gable,Vivien Leigh,Thomas Mitchell,Hattie McDaniel
-47,A Streetcar Named Desire,1951,Adventure/Drama,David Lean,Peter O'Toole,Alec Guinness,Anthony Quinn,Jack Hawkins
-48,Rear Window,1954,Drama,Steven Spielberg,Liam Neeson,Ralph Fiennes,Ben Kingsley,Embeth Davidtz
-49,Intolerance,1916,Thriller/Mystery,Alfred Hitchcock,James Stewart,Kim Novack,Barbara Bel Geddes,Tom Helmore
-50,The Lord of the Rings: The Fellowship of the Ring,2001,Fantasy/Adventure,Victor Fleming,Judy Garland,Frank Morgan,Ray Bolger,Bert Hahr
-51,West Side Story,1961,Comedy,Charlie Chaplin,Charlie Chaplin,Viginia Cherrill,Florence Lee,Harry Myers
-52,Taxi Driver,1976,Adventure/Western,John Ford,John Wayne,Jeffrey Hunter,Vera Miles,Natalie Wood
-53,The Deer Hunter,1978,Action/Adventure/Fantasy,George Lucas,Mark Hamill,Harrison Ford,Carrie Fisher,James Earl Jones
-54,M*A*S*H,1970,Horror/Mystery/Thriller,Alfred Hitchcock,Anthony Perkins,Janet Leigh,Vera Miles,John Gavin
-55,North by Northwest,1959,Sci-Fi/Mystery,Stanely Kubrick,Keir Dulea,George Lockwood,William Sylvester,Margaret Tyzack
-56,Jaws,1975,Drama/Film-Noir,Billy Wilder,William Holden,Gloria Swanson,Erich von Stroheim,Fred Clark
-57,Rocky,1976,Comedy/Drama/Romance,Mike Nichols,Dustin Hoffman,Anne Bancroft,Katharine Ross,William Daniels
-58,The Gold Rush,1925,Action/Adventure/Comedy,Clyde Bruckman,Buster Keaton,Marion Mack,Glen Cavender,Jim Farley
-59,Nashville,1975,Crime/Drama/Thriller,Eliza Kazan,Marlon Brando,Karl Malden,Lee J. Cobb,Rod Steiger
-60,Duck Soup,1933,Drama/Family/Fantasy,Frank Capra,James Stewart,Donna Reed,Lionel Barrymore,Thomas Mitchell
-61,Sullivan's Travels,1941,Drama/Mystery,Orson Welles,Orson Welles,Joseph Cotten,Dorothy Comingore,Agnes Moorehead
-62,American Graffiti,1973,Drama/Crime,Francis Ford Coppola,Marlon Brando,Al Pacino,James Caan,Robert Duvall
-63,Cabaret,1972,Drama/Romance,Michael Curtiz,Humprey Bogart,Ingrid Bergman,Paul Henreird,Claude Rains
-64,Network,1976,Drama/Sport,Martin Scorsese,Robert De Niro,Cathy Moriarty,Joe Pesci,Frank Vincent
-65,The African Queen,1951,Comedy/Musical,Stanely Donen,Gene Kelly,Donald O'Connor,Debbie Reynolds,Jean Hagen
-66,Raiders of the Lost Ark,1981,Drama/Romance,Victor Fleming,Clark Gable,Vivien Leigh,Thomas Mitchell,Hattie McDaniel
-67,Who's Afraid of Virginia Woolf?,1966,Adventure/Drama,David Lean,Peter O'Toole,Alec Guinness,Anthony Quinn,Jack Hawkins
-68,Unforgiven,1992,Drama,Steven Spielberg,Liam Neeson,Ralph Fiennes,Ben Kingsley,Embeth Davidtz
-69,Tootsie,1982,Thriller/Mystery,Alfred Hitchcock,James Stewart,Kim Novack,Barbara Bel Geddes,Tom Helmore
-70,A Clockwork Orange,1971,Fantasy/Adventure,Victor Fleming,Judy Garland,Frank Morgan,Ray Bolger,Bert Hahr
-71,Saving Private Ryan,1998,Comedy,Charlie Chaplin,Charlie Chaplin,Viginia Cherrill,Florence Lee,Harry Myers
-72,The Shawshank Redemption,1994,Adventure/Western,John Ford,John Wayne,Jeffrey Hunter,Vera Miles,Natalie Wood
-73,Butch Cassidy and the Sundance Kid,1969,Action/Adventure/Fantasy,George Lucas,Mark Hamill,Harrison Ford,Carrie Fisher,James Earl Jones
-74,The Silence of the Lambs,1991,Horror/Mystery/Thriller,Alfred Hitchcock,Anthony Perkins,Janet Leigh,Vera Miles,John Gavin
-75,In the Heat of the Night,1967,Sci-Fi/Mystery,Stanely Kubrick,Keir Dulea,George Lockwood,William Sylvester,Margaret Tyzack
-76,Forrest Gump,1994,Drama/Film-Noir,Billy Wilder,William Holden,Gloria Swanson,Erich von Stroheim,Fred Clark
-77,All The President's Men,1976,Comedy/Drama/Romance,Mike Nichols,Dustin Hoffman,Anne Bancroft,Katharine Ross,William Daniels
-78,Modern Times,1936,Action/Adventure/Comedy,Clyde Bruckman,Buster Keaton,Marion Mack,Glen Cavender,Jim Farley
-79,The Wild Bunch,1969,Crime/Drama/Thriller,Eliza Kazan,Marlon Brando,Karl Malden,Lee J. Cobb,Rod Steiger
-80,The Apartment,1960,Drama/Family/Fantasy,Frank Capra,James Stewart,Donna Reed,Lionel Barrymore,Thomas Mitchell
-81,Spartacus,1960,Drama/Mystery,Orson Welles,Orson Welles,Joseph Cotten,Dorothy Comingore,Agnes Moorehead
-82,Sunrise,1927,Drama/Crime,Francis Ford Coppola,Marlon Brando,Al Pacino,James Caan,Robert Duvall
-83,Titanic,1927,Drama/Romance,Michael Curtiz,Humprey Bogart,Ingrid Bergman,Paul Henreird,Claude Rains
-84,Easy Rider,1969,Drama/Sport,Martin Scorsese,Robert De Niro,Cathy Moriarty,Joe Pesci,Frank Vincent
-85,A Night at the Opera,1935,Comedy/Musical,Stanely Donen,Gene Kelly,Donald O'Connor,Debbie Reynolds,Jean Hagen
-86,Platoon,1986,Drama/Romance,Victor Fleming,Clark Gable,Vivien Leigh,Thomas Mitchell,Hattie McDaniel
-87,12 Angry Men,1957,Adventure/Drama,David Lean,Peter O'Toole,Alec Guinness,Anthony Quinn,Jack Hawkins
-88,Bringing Up Baby,1938,Drama,Steven Spielberg,Liam Neeson,Ralph Fiennes,Ben Kingsley,Embeth Davidtz
-89,The Sixth Sense,1999,Thriller/Mystery,Alfred Hitchcock,James Stewart,Kim Novack,Barbara Bel Geddes,Tom Helmore
-90,Swing Time,1936,Fantasy/Adventure,Victor Fleming,Judy Garland,Frank Morgan,Ray Bolger,Bert Hahr
-91,Sophie's Choice,1982,Comedy,Charlie Chaplin,Charlie Chaplin,Viginia Cherrill,Florence Lee,Harry Myers
-92,Goodfellas,1990,Adventure/Western,John Ford,John Wayne,Jeffrey Hunter,Vera Miles,Natalie Wood
-93,The French Connection,1971,Action/Adventure/Fantasy,George Lucas,Mark Hamill,Harrison Ford,Carrie Fisher,James Earl Jones
-94,Pulp Fiction,1994,Horror/Mystery/Thriller,Alfred Hitchcock,Anthony Perkins,Janet Leigh,Vera Miles,John Gavin
-95,The Last Picture Show,1971,Sci-Fi/Mystery,Stanely Kubrick,Keir Dulea,George Lockwood,William Sylvester,Margaret Tyzack
-96,Do the Right Thing,1989,Drama/Film-Noir,Billy Wilder,William Holden,Gloria Swanson,Erich von Stroheim,Fred Clark
-97,Blade Runner,1982,Comedy/Drama/Romance,Mike Nichols,Dustin Hoffman,Anne Bancroft,Katharine Ross,William Daniels
-98,Yankee Doodle Dandy,1942,Action/Adventure/Comedy,Clyde Bruckman,Buster Keaton,Marion Mack,Glen Cavender,Jim Farley
-99,Toy Story,1995,Crime/Drama/Thriller,Eliza Kazan,Marlon Brando,Karl Malden,Lee J. Cobb,Rod Steiger
-100,Ben-Hur,1959,Drama/Family/Fantasy,Frank Capra,James Stewart,Donna Reed,Lionel Barrymore,Thomas Mitchell
+AFI Rank,Movie Title,Year,Genre,Director,Actor,Actor,Actor,Actor,Picture
+1,Citizen Kane,1941,Drama/Mystery,Orson Welles,Orson Welles,Joseph Cotten,Dorothy Comingore,Agnes Moorehead,/en/c/ce/Citizenkane.jpg
+2,The Godfather,1972,Drama/Crime,Francis Ford-Coppola,Marlon Brando,Al Pacino,James Caan,Robert Duvall,/en/1/1c/Godfather_ver1.jpg
+3,Casablanca,1942,Drama/Romance,Michael Curtiz,Humprey Bogart,Ingrid Bergman,Paul Henreird,Claude Rains,/commons/b/b3/CasablancaPoster-Gold.jpg
+4,Raging Bull,1980,Drama/Sport,Martin Scorsese,Robert De-Niro,Cathy Moriarty,Joe Pesci,Frank Vincent,/en/5/5f/Raging_Bull_poster.jpg
+5,Singin' in the Rain,1952,Comedy/Musical,Stanely Donen,Gene Kelly,Donald O'Connor,Debbie Reynolds,Jean Hagen,/en/f/f9/Singing_in_the_rain_poster.jpg
+6,Gone with the Wind,1939,Drama/Romance,Victor Fleming,Clark Gable,Vivien Leigh,Thomas Mitchell,Hattie McDaniel,/commons/2/27/Poster_-_Gone_With_the_Wind_01.jpg
+7,Lawrence of Arabia,1962,Adventure/Drama,David Lean,Peter O'Toole,Alec Guinness,Anthony Quinn,Jack Hawkins,/commons/c/c5/Lawrence_of_arabia_ver3_xxlg.jpg
+8,Schindler's List,1993,Drama,Steven Spielberg,Liam Neeson,Ralph Fiennes,Ben Kingsley,Embeth Davidtz,/en/3/38/Schindler%27s_List_movie.jpg
+9,Vertigo,1958,Thriller/Mystery,Alfred Hitchcock,James Stewart,Kim Novack,Barbara Bel Geddes,Tom Helmore,/commons/7/75/Vertigomovie_restoration.jpg
+10,The Wizard of Oz,1939,Fantasy/Adventure,Victor Fleming,Judy Garland,Frank Morgan,Ray Bolger,Bert Hahr,/commons/c/ca/WIZARD_OF_OZ_ORIGINAL_POSTER_1939.jpg
+11,City Lights,1931,Comedy,Charlie Chaplin,Charlie Chaplin,Viginia Cherrill,Florence Lee,Harry Myers,/en/f/f2/City_Lights_film.jpg
+12,The Searchers,1956,Adventure/Western,John Ford,John Wayne,Jeffrey Hunter,Vera Miles,Natalie Wood,/commons/5/59/SearchersPoster-BillGold.jpg
+13,Star Wars,1977,Action/Adventure/Fantasy,George Lucas,Mark Hamill,Harrison Ford,Carrie Fisher,James Earl-Jones,/en/8/87/StarWarsMoviePoster1977.jpg
+14,Psycho,1960,Horror/Mystery/Thriller,Alfred Hitchcock,Anthony Perkins,Janet Leigh,Vera Miles,John Gavin,/en/b/b9/Psycho_%281960%29.jpg
+15,2001: A Space Odessy,1968,Sci-Fi/Mystery,Stanely Kubrick,Keir Dulea,George Lockwood,William Sylvester,Margaret Tyzack,/en/e/ef/2001_A_Space_Odyssey_Style_B.jpg
+16,Sunset BLVD.,1950,Drama/Film-Noir,Billy Wilder,William Holden,Gloria Swanson,Erich von Stroheim,Fred Clark,/en/0/0a/SunsetBoulevardfilmposter.jpg
+17,The Graduate,1967,Comedy/Drama/Romance,Mike Nichols,Dustin Hoffman,Anne Bancroft,Katharine Ross,William Daniels,/en/8/8b/Graduateposter67.jpg
+18,The General,1927,Action/Adventure/Comedy,Clyde Bruckman,Buster Keaton,Marion Mack,Glen Cavender,Jim Farley,/en/5/59/The_General_poster.jpg
+19,On the Waterfront,1954,Crime/Drama/Thriller,Eliza Kazan,Marlon Brando,Karl Malden,Lee J. Cobb,Rod Steiger,/en/f/f4/On_the_Waterfront_poster.jpg
+20,It's A Wonderful Life,1946,Drama/Family/Fantasy,Frank Capra,James Stewart,Donna Reed,Lionel Barrymore,Thomas Mitchell,/en/9/95/Its_A_Wonderful_Life_Movie_Poster.jpg
+21,Chinatown,1974,Drama/Mystery/Thriller,Roman Polanski,Jack Nicholson,Faye Dunaway,John Huston,Perry Lopez,/en/3/38/Chinatownposter1.jpg
+22,Some Like It Hot,1959,Comedy/Crime,Billy Wilder,Marilyn Monroe,Tony Curtis,Jack Lemon,George Raft,/en/b/b4/Some_Like_It_Hot_poster.jpg
+23,The Grapes of Wrath,1940,Drama,John Ford,Henry Fonda,Jane Darwell,John Carradine,Doris Bowdon,/en/9/9f/Wrathposters141.jpg
+24,E.T. The Extra-Terrestrial,1982,Family/Sci-Fi,Steven Spielberg,Henry Thomas,Drew Barrymore,Peter Coyote,Dee Walllace,/en/6/66/E_t_the_extra_terrestrial_ver3.jpg
+25,To Kill A Mockingbird,1962,Drama,Robert Mulligan,Gregory Peck,John Megna,Frank Overton,Rosemary Murphy,/en/8/8e/To_Kill_a_Mockingbird_poster.jpg
+26,Mr. Smith Goes to Washington,1939,Comedy/Drama,Frank Capra,James Stewart,Jean Arthur,Claude Rains,Edward Arnold,/en/c/ce/Smith_goes.jpg
+27,High Noon,1952,Romance/Western,Fred Zinnemann,Gary Cooper,Grace Kelly,Thomas Mitchell,Otto Kruger,/en/5/54/High_Noon_poster.jpg
+28,All About Eve,1950,Drama,Joseph Mankiewicz,Bette Davis,Anne Baxter,George Sanders,Celeste Holm,/en/2/22/AllAboutEve.jpeg
+29,Double Indemnity,1944,Crime/Drama/Film-Noir,Billy Wilder,Fred MacMurray,Barbara Stanwyck,Edward Robinson,Byron Barr,en/3/35/Double_indemnity.jpg
+30,Apocalypse Now,1979,Drama,Francis Ford-Coppola,Martin Sheen,Marlon Brando,Robert Duvall,Harrison Ford,/en/c/c2/Apocalypse_Now_poster.jpg
+31,The Maltese Falcon,1941,Crime/Drama/Film-Noir,John Huston,Humprey Bogart,Mary Astor,Gladys George,Peter Lorre,/en/9/99/Falconm.JPG
+32,The Godfather Part II,1974,Crime/Drama,Francis Ford-Coppola,Al Pacino,Rober De Niro,Robert Duvall,Diane Keaton,/en/0/03/Godfather_part_ii.jpg
+33,One Flew Over The Cuckoo's Nest,1975,Drama,Milos Forman,Jack Nicholson,Louise Fletcher,Michael Berryman,Danny DeVito,/en/2/26/One_Flew_Over_the_Cuckoo%27s_Nest_poster.jpg
+34,Snow White and the Seven Dwarfs,1937,Animation/Family,William Cottrell,Adriana Caselotti,Harry Stockwell,Lucille La Verne,Roy Atwell,/en/4/49/Snow_White_1937_poster.png
+35,Annie Hall,1977,Comedy/Romance,Woody Allen,Woody Allen,Diane Keaton,Tony Roberts,Christopher Walken,en/e/e6/Anniehallposter.jpg
+36,The Bridge on the River Kwai,1957,Adventure/Drama,David Lean,William Holden,Alec Guinness,Jack Hawkins,James Donald,/en/f/f2/The_Bridge_on_the_River_Kwai_poster.jpg
+37,The Best Years of our Lives,1946,Drama/Romance,William Wyler,Fredric March,Dana Andrews,Myrna Loy,Teresa Wright,/en/4/42/The_Best_Years_of_Our_Lives_film_poster.jpg
+38,The Treasure of the Sierra Madre,1948,Action/Adventure/Drama,John Huston,Humprey Bogart,Walter Huston,Tim Holt,Bruce Bennett,/en/1/12/Treasuremadre.jpg
+39,Dr. Strangelove,1964,Comedy,Stanley Kubrick,Peter Sellers,George Scott,Sterling Hayden,James Earl-Jones,/en/e/e6/Dr._Strangelove_poster.jpg
+40,The Sound of Music,1965,Drama/Family,Robert Wise,Julie Andrews,Christopher Plummer,Elenor Parker,Peggy Wood,/en/c/c6/Sound_of_music.jpg
+41,King Kong,1933,Adventure/Fantasy,Merian Cooper,Fay Wray,Robert Armstrong,Bruce Cabot,Frank Reicher,/en/6/63/Kingkong33newposter.jpg
+42,Bonnie and Clyde,1967,Drama/Crime,Arthur Penn,Warren Beatty,Faye Dunaway,Michael Pollard,Gene Hackman,/en/7/74/Bonnie_and_Clyde.JPG
+43,Midnight Cowboy,1969,Drama,John Schlesinger,Dustin Hoffman,Jon Voight,Sylvia Miles,John McGiver,/en/8/87/Midnight_Cowboy.jpg
+44,The Philadephia Story,1940,Comedy/Romance,George Cukor,Cary Grant,Katherine Hepburn,James Stewart,Ruth Hussey,/en/5/54/The-Philadelphia-Story-%281940%29.jpg
+45,Shane,1953,Drama/Romance/Western,George Stevens,Alan Ladd,Jean Arthur,Van Heflin,Jack Palance,/en/a/a0/Shaneposter.png
+46,It Happened One Night,1934,Comedy/Romance,Frank Capra,Clark Gable,Claudette Colbert,Walter Connolly,Roscoe Karns,/en/4/40/Gable_ithapponepm_poster.jpg
+47,A Streetcar Named Desire,1951,Drama,Elia Kazan,Marlon Brando,Vivien Leigh,Kim Hunter,Karl Malden,/en/7/72/Streetcar_original.jpg
+48,Rear Window,1954,Mystery/Thriller,Alfred Hitchcock,James Stewart,Grace Kelly,Wendall Corey,Thelma Ritter,/commons/3/38/Rear_Window_film_poster.jpg
+49,Intolerance,1916,Drama,D.W. Griffith,Lillian Gish,Douglas Fairbanks,Spottiswoode Aitken,Miriam Cooper,/commons/8/88/Intolerance_%28film%29.jpg
+50,The Lord of the Rings: The Fellowship of the Ring,2001,Fantasy/Adventure,Peter Jackson,Elijah Wood,Ian McKellan,Orlando Bloom,Sean Astin,/en/0/0c/The_Fellowship_Of_The_Ring.jpg
+51,West Side Story,1961,Crime/Drama/Musical,Robert Wise,Natalie Wood,George Chakiris,Richard Beymer,Russ Tamblyn,/en/d/d1/West_Side_Story_poster.jpg
+52,Taxi Driver,1976,Crime/Drama,Martin Scorsese,Robert De-Niro,Jodie Foster,Cybill Shepherd,Albert Brooks,/en/c/c9/Taxi_Driver_poster.JPG
+53,The Deer Hunter,1978,Drama/War,Michael Cimino,Robert De-Niro,Christopher Walken,John Cazale,Meryl Streep,/en/5/57/The_Deer_Hunter_poster.jpg
+54,M*A*S*H,1970,Comedy/Drama,Robert Altman,Donald Sutherland,Elliot Gould,Tom Skerritt,Robert Duvall,/en/7/7a/MASHfilmposter.jpg
+55,North by Northwest,1959,Adventure/Crime/Mystery,Alfred Hitchcock,Cary Grant,Eva Marie-Saint,James Mason,Martin Landau,/commons/8/83/Northbynorthwest1.jpg
+56,Jaws,1975,Adventure/Thriller,Steven Spielberg,Roy Scheider,Robert Snow,Richard Dreyfuss,Carl Gottlieb,/en/e/eb/JAWS_Movie_poster.jpg
+57,Rocky,1976,Drama/Sport,John Avildsen,Sylvester Stallone,Talia Shire,Carl Weathers,Burt Young,/en/1/18/Rocky_poster.jpg
+58,The Gold Rush,1925,Adventure/Comedy/Drama,Charlie Chaplin,Charlie Chaplin,Mack Swain,Tom Murray,Henrey Burgman,/en/7/72/The_Gold_Rush.jpg
+59,Nashville,1975,Comedy/Drama/Musical,Robert Altman,Keith Carradine,Karen Black,Ronnee Blackley,Jeff Goldblum,/en/7/75/Nashville_%28movie_poster%29.jpg
+60,Duck Soup,1933,Comedy/Musical,Leo McCarey,Groucho Marx,Harpo Marx,Chico Marx,Zeppo Marx,/en/d/d7/Duck_Soup.jpg
+61,Sullivan's Travels,1941,Adventure/Comedy/Drama,Preston Sturges,Joel McCrea,Veronica Lake,Robert Warwick,William Demarest,/en/2/23/Sullivanstravelsposter.jpg
+62,American Graffiti,1973,Comedy/Drama,George Lucas,Richard Dreyfuss,Ron Howard,Paul Le Mat,Harrison Ford,/en/e/e6/American_graffiti_ver1.jpg
+63,Cabaret,1972,Drama/Musical,Bob Fosse,Liza Minnelli,Michael York,Helmut Griem,Joel Grey,/en/3/3e/Original_movie_poster_for_Cabaret.jpg
+64,Network,1976,Drama,Sidney Lumet,Faye Dunaway,William Holden,Peter Finch,Robert Duvall,/en/f/fc/Networkmovie.jpg
+65,The African Queen,1951,Adventure/Drama/Romance,John Huston,Humprey Bogart,Katherine Hepburn,Robert Morley,Peter Bull,/en/2/2e/The-african-queen-1-.jpeg
+66,Raiders of the Lost Ark,1981,Action/Adventure,Steven Spielberg,Harrison Ford,Karen Allen,Paul Freeman,John Rhys-Davies,/en/4/4b/Raiders.jpg
+67,Who's Afraid of Virginia Woolf?,1966,Drama,Mike Nichols,Elizabeth Taylor,Richard Burton,George Segal,Sandy Dennis,/en/7/7c/Original_movie_poster_for_the_film_Who%27s_Afraid_of_Virginia_Woolf%3F.jpg
+68,Unforgiven,1992,Drama/Western,Clint Eastwood,Clint Eastwood,Gene Hackman,Morgan Freeman,Richard Harris,/en/4/4e/Unforgiven_2.jpg
+69,Tootsie,1982,Comedy/Drama/Romance,Sydney Pollack,Dustin Hoffman,Jessica Lange,Teri Garr,Bill Murray,/en/a/a2/Tootsie_imp.jpg
+70,A Clockwork Orange,1971,Crime/Drama/Sci-Fi,Stanley Kubrick,Malcolm McDowell,Patrick Magee,Michael Bates,John Clive,/en/4/48/Clockwork_orangeA.jpg
+71,Saving Private Ryan,1998,Action/Drama,Steven Spielberg,Tom Hanks,Matt Damon,Tom Sizemore,Ed Burns,/en/a/ac/Saving_Private_Ryan_poster.jpg
+72,The Shawshank Redemption,1994,Crime/Drama,Frank Darabont,Tim Robbins,Morgan Freeman,Bob Gunton,William Sadler,/en/8/81/ShawshankRedemptionMoviePoster.jpg
+73,Butch Cassidy and the Sundance Kid,1969,Crime/Drama,George Roy-Hill,Paul Newman,Robert Redford,Katharine Ross,Henry Jones,/en/f/fd/Butch_sundance_poster.jpg
+74,The Silence of the Lambs,1991,Crime/Drama/Thriller,Jonathan Demme,Jodie Foster,Anthony Hopkins,Lawrence Bonney,Scott Glenn,/en/8/86/The_Silence_of_the_Lambs_poster.jpg
+75,In the Heat of the Night,1967,Crime/Drama/Mystery,Norman Jewison,Sidney Poitier,Rod Steiger,Warren Oates,Lee Grant,/en/d/d5/In_the_Heat_of_the_Night_%28film%29.jpg
+76,Forrest Gump,1994,Drama/Romance,Robert Zemeckis,Tom Hanks,Robin Wright,Gary Sinise,Sally Field,/en/6/67/Forrest_Gump_poster.jpg
+77,All The President's Men,1976,Drama,Alan Pakula,Dustin Hoffman,Robert Redford,Jack Warden,Martin Balsam,/en/9/92/All_the_president%27s_men.jpg
+78,Modern Times,1936,Comedy/Drama/Romance,Charlie Chaplin,Charlie Chaplin,Paulett Goddard,Henry Bergman,Chester Conklin,/commons/3/36/Modern_Times_poster.jpg
+79,The Wild Bunch,1969,Action/Adventure,Sam Peckinpah,William Holden,Earnest Borgnine,Robert Ryan,Warren Oates,/en/0/05/The_Wild_Bunch.JPG
+80,The Apartment,1960,Comedy/Drama/Romance,Billy Wilder,Jack Lemmon,Shirley MacLaine,Fred MacMurray,Ray Walston,/en/b/bb/Apartment_60.jpg
+81,Spartacus,1960,Adventure/Drama,Stanley Kubrick,Kirk Douglas,Laurence Olivier,Jean Simmons,Charles Laughton,/commons/2/2f/Spartacus_sheetA.jpg
+82,Sunrise,1927,Drama/Romance,F.W. Murnau,George O'Brien,Janet Gaynor,Margaret Livingston,Jane Winton,/en/5/5e/Sunrise_vintage.jpg
+83,Titanic,1997,Drama/Romance,James Cameron,Leonardo DiCaprio,Kate Winslet,Billy Zane,Kathy Bates,/en/2/22/Titanic_poster.jpg
+84,Easy Rider,1969,Adventure/Drama,Dennis Hopper,Peter Fonda,Dennis Hopper,Jack Nicholson,Phil Spector,/en/3/32/EasyRider.jpg
+85,A Night at the Opera,1935,Comedy/Musical,Sam Wood,Groucho Marx,Chico Marx,Harpo Marx,Kitty Carlisle,/en/4/45/A_Night_at_the_Opera_Poster.gif
+86,Platoon,1986,Drama,Oliver Stone,Charlie Sheen,Tom Berenger,Willem Dafoe,Forest Whitaker,/en/a/a9/Platoon_posters_86.jpg
+87,12 Angry Men,1957,Crime/Drama,Sidney Lumet,Henry Fonda,Lee Cobb,Martin Balsam,John Fiedler,/en/9/91/12_angry_men.jpg
+88,Bringing Up Baby,1938,Comedy/Romance,Howard Hawks,Katharine Hepburn,Cary Grant,Charles Ruggles,Walter Catlett,/commons/5/57/BabyPoster2.jpg
+89,The Sixth Sense,1999,Drama/Mystery/Thriller,M. Night-Shyamlan,Bruce Willis,Haley Joel-Osment,Toni Collette,Donnie Wahlberg,/en/6/66/The_sixth_sense.jpg
+90,Swing Time,1936,Comedy/Musical/Romance,George Stevens,Fred Astaire,Ginger Rogers,Victor Moore,Betty Furness,/en/1/15/Swing-Time-1935.jpg
+91,Sophie's Choice,1982,Drama/Romance,Alan Pakula,Meryl Streep,Kevin Kline,Peter MacNicol,John Rothman,/en/4/47/Sophie%27s_Choice1.jpg
+92,Goodfellas,1990,Crime/Drama,Martin Scorsese,Robert De-Niro,Ray Liotta,Joe Pesci,Lorraine Bracco,/en/7/7b/Goodfellas.jpg
+93,The French Connection,1971,Action/Crime/Drama,William Friedkin,Gene Hackman,Roy Scheider,Fernando Rey,Tony Lo-Bianco,/en/b/b8/TheFrenchConnection.jpg
+94,Pulp Fiction,1994,Crime/Drama,Quentin Tarantino,John Travolta,Uma Thurman,Samuel Jackson,Bruce Willis,/en/8/82/Pulp_Fiction_cover.jpg
+95,The Last Picture Show,1971,Drama,Peter Bogdanovich,Timothy Bottoms,Jeff Bridges,Cybill Shepherd,Cloris Leachman,/en/8/8f/The_Last_Picture_Show_%28movie_poster%29.jpg
+96,Do the Right Thing,1989,Drama,Spike Lee,Danny Aiello,Ossie Davis,Ruby Dee,Richard Edson,/en/2/22/DO_THE_RIGHT_THING.jpg
+97,Blade Runner,1982,Sci-Fi/Thriller,Ridley Scott,Harrison Ford,Rutger Hauer,Sean Young,Edward James-Olmos,/en/5/53/Blade_Runner_poster.jpg
+98,Yankee Doodle Dandy,1942,Drama/Musical,Michael Curtiz,James Cagney,Joan Leslie,Walter Huston,George Tobias,/en/2/23/Yankee_Doodle_Dandy_poster.jpeg
+99,Toy Story,1995,Animation/Adventure/Comedy,John Lasseter,Tom Hanks,Tim Allen,Don Rickles,Wallace Shawn,/en/1/13/Toy_Story.jpg
+100,Ben-Hur,1959,Adventure/Drama,William Wyler,Charlton Heston,Jack Hawkins,Stephen Boyd,Haya Harareet,/commons/7/74/Ben_hur_1959_poster.jpg

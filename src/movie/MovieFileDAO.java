@@ -33,12 +33,12 @@ public class MovieFileDAO implements MovieDAO {
 				String[] genre = tokens[3].split("/");
 				String[] dirName = tokens[4].split(" ");
 				Director dir = new Director(dirName[0], dirName[1]);
-				for (int i = 5; i < tokens.length; i++) {
+				for (int i = 5; i < 9; i++) {
 					String[] act = tokens[i].split(" ");
-					actor.add(new Actor(act[0], act[1]));
+					actor.add(new Actor(act[0], act[1].replaceAll("-", " ")));
 				}
-
-				afiList.add(new Movie(afi, title, yearMade, genre, dir, actor, tokens[tokens.length-1]));
+				
+				afiList.add(new Movie(afi, title, yearMade, genre, dir, actor, tokens[9]));
 
 			}
 		} catch (Exception e) {
@@ -124,7 +124,6 @@ public class MovieFileDAO implements MovieDAO {
 				genre = mov.getGenre();
 				actors= mov.getActors();
 				num = afiList.indexOf(mov);
-				System.out.println(num);
 				break;
 			}
 		}
@@ -139,13 +138,11 @@ public class MovieFileDAO implements MovieDAO {
 	public void deleteActor(Actor actor, Movie movie){
 		Movie m = null;
 		int num =-1;
-		System.out.println("in deleteActor");
 		for (Movie mov : afiList) {
 			if(mov.getTitle().equals(movie.getTitle())){
 				
 				m = mov;
 				 num = mov.getActors().indexOf(actor);
-				 System.out.println(num);
 				break;
 			}
 		}

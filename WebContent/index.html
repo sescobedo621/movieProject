@@ -2,30 +2,45 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
 <title>Movies</title>
 </head>
 <body>
-	
+	<div id="navBar">
+		<ul>
+			<li class="header"><a href="index.html">redCarpetClub</a></li>
+			<li><a href="GetGenre.do?all=AllMovies"> List All Movies</a></li>
+			<li><a href="name.html">Search By Name</a></li>
+			<li><a href="addMovie.do">Add Movie</a></li>
+			<li><a href="editMovie.do">Edit Movie</a></li>
+		</ul>
+	</div>
+	<div id="Genre">
 	<table>
-	<form action="GetGenre.do" method="GET">
+
 		<tr>
-		<td><input type="submit" name="genre" value="Action"/></td>
-		<td><input type="submit" name="genre" value="Adventure"/></td>
-		<td><input type="submit" name="genre" value="Comedy"/></td>
+			<td><a href="GetGenre.do?genre=Adventure"><img
+					alt="Adventure"
+					src="http://klat.com/sites/default/files/whip%20and%20hat.jpg" /></a></td>
+			<td><a href="GetGenre.do?genre=Action"><img alt="Action"
+					src="http://cdn03.androidauthority.net/wp-content/uploads/2014/09/Man-Jumping-From-Explosion.jpg" /></a></td>
+			<td><a href="GetGenre.do?genre=Comedy"><img alt="Comedy"
+					src="https://blogs.kent.ac.uk/arts-news/files/2014/09/comedymask.jpg" /></a></td>
 		</tr>
 		<tr>
-		<td><input type="submit" name="genre" value="Drama"/></td>
-		<td><input type="submit" name="genre" value="Romance"/></td>
-		<td><input type="submit" name="genre" value="Sci-Fi"/></td>
+			<td><a href="GetGenre.do?genre=Drama"><img alt="Drama"
+					src="https://cdn.psychologytoday.com/sites/default/files/styles/image-article_inline_full/public/blogs/1870/2009/02/3261-38321.jpg?itok=WOt5a057" /></a></td>
+			<td><a href="GetGenre.do?genre=Romance"><img alt="Romance" src="http://www.100bestdesign.com/wp-content/uploads/2013/03/09-100-Best-HD-Love-Romance-and-Heart-Wallpapers-Design.jpg"/></a></td>
+			<td><a href="GetGenre.do?genre=Sci-Fi"><img alt="Sci-Fi" src="http://idyllopuspress.com/idyllopus/film/images/2001/2001_504.jpg"></a></td>
 		</tr>
 		<tr>
-		<td><input type="submit" name="all" value="All Movies"/></td>
+			<td><a href="GetGenre.do?genre=Crime"><img alt="Crime" src="https://mintyblonde.files.wordpress.com/2012/05/film_noir_1_by_unclelou.jpg"/></a></td>
+			<td><a href="GetGenre.do?genre=Family"><img alt="Family" src="http://www.classiccinemas.com/userimages/images/FamilyPopcornPicture.jpg"></a></td>
+			<td><a href="GetGenre.do?genre=Musical"><img alt="Musical" src="https://upload.wikimedia.org/wikipedia/en/7/7d/Singin_Rain.jpg"></a></td>
 		</tr>
-		</form>
 	</table>
-	
-<a href="name.html">Search By Name</a>
-<a href="addMovie.do">Add Movie</a>
-<a href="editMovie.do">Edit Movie</a>
+	</div>
+
+
 </body>
 </html>

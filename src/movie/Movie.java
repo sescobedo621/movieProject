@@ -10,22 +10,24 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 public class Movie {
-	@Min (1896)
-	@Max (2020)
+	@Min(1896)
+	@Max(2020)
 	private int yearMade;
-	private List<Actor> actors= new ArrayList<>();
+	private List<Actor> actors = new ArrayList<>();
 	private Director director = new Director();
-	@Size(min=2)
+	@Size(min = 2)
 	private String title;
 	private String[] genre;
 	private int afiNum;
-	private String video;
-	
-	public Movie(){
-		
+	private String picture;
+
+	public Movie()
+	{
+
 	}
-	
-	public Movie(int afiNum,String title, int yearMade,String[] genre, Director director, List<Actor> actors, String video)
+
+	public Movie(int afiNum, String title, int yearMade, String[] genre, Director director, List<Actor> actors,
+			String pic)
 	{
 		this.yearMade = yearMade;
 		this.actors = actors;
@@ -33,53 +35,64 @@ public class Movie {
 		this.title = title;
 		this.genre = genre;
 		this.afiNum = afiNum;
-		this.video = video;
+		this.picture = pic;
 	}
-	
+
 	public int getYearMade()
 	{
 		return yearMade;
 	}
+
 	public void setYearMade(int yearMade)
 	{
 		this.yearMade = yearMade;
 	}
+
 	public List<Actor> getActors()
 	{
 		return actors;
 	}
+
 	public void setActors(List<Actor> actors)
 	{
 		this.actors = actors;
 	}
+
 	public Director getDirector()
 	{
 		return director;
 	}
+
 	public void setDirector(Director director)
 	{
 		this.director = director;
 	}
+
 	public String getTitle()
 	{
 		return title;
 	}
+
 	public void setTitle(String title)
 	{
 		this.title = title;
 	}
+
 	public String[] getGenre()
 	{
 		return genre;
 	}
+
 	public void setGenre(String[] genre)
 	{
 		this.genre = genre;
 	}
+
 	public int getAfiNum()
 	{
 		return afiNum;
 	}
+
 	public void setAfiNum(int afiNum)
 	{
 		this.afiNum = afiNum;
@@ -121,13 +134,13 @@ public class Movie {
 		return true;
 	}
 
-	public String getVideo()
+	public String getPicture()
 	{
-		return video;
+		return picture;
 	}
 
-	public void setVideo(String video)
+	public void setPicture(String pic)
 	{
-		this.video = video;
+		this.picture = pic;
 	}
 }
