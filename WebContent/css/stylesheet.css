@@ -1,18 +1,26 @@
 body{
-	background-color: #6d6969;
-	color: red;
+	background-color: #565252;
+	color: #c30a0a;
 	text-shadow: 2px 2px black;
 }
 a{
-	color: red;
+	color: #880000;
 	text-shadow: 2px 2px black;
 }
 a:hover{
-	color: pink;
+	color: red;
 	text-decoration: none;
 	text-shadow: 2px 2px black;
 }
 
+.genre{
+	width: 90%;
+}
+
 .genre img{
-	max-width: 200px;
+	height: 300px;
+	width: 400px;
+}
+.genre h3{
+	text-align: center;
 }

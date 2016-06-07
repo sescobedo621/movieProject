@@ -15,10 +15,5 @@
 			<li><a href="editMovie.do">Edit Movie</a></li>
 		</ul>
 	</div>
-	<form action="GetMovie.do" method="GET">
-		Enter Movie Title: <input type="text" name="name" /> <input id="submit" type="submit"
-			value="Submit" />
-
-	</form>
 </body>
 </html>

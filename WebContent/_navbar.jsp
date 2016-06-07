@@ -13,9 +13,15 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
 			<li><a href="GetGenre.do?all=AllMovies"> List All Movies</a></li>
-			<li><a href="name.html">Search By Name</a></li>
 			<li><a href="addMovie.do">Add Movie</a></li>
 			<li><a href="editMovie.do">Edit Movie</a></li>
 		</ul>
+      <form class="navbar-form navbar-left" action="GetMovie.do" method="GET">
+       <div class="form-group">
+         <input type="text" name="name" placeholder="Movie Title"/>
+    </div>
+     <input id="submit" type="submit"  value="Submit" class="btn btn-default"/>
 		</div>
+
+  </form>
 	</nav>
