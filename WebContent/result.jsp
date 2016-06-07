@@ -5,49 +5,38 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<jsp:include page="_styles.jsp"></jsp:include>
+
 <title>${movie.title}</title>
 </head>
 <body>
-	<div id="navBar">
-		<ul>
-			<li class="header"><a href="index.html">redCarpetClub</a></li>
-			<li><a href="GetGenre.do?all=AllMovies"> List All Movies</a></li>
-			<li><a href="name.html">Search By Name</a></li>
-			<li><a href="addMovie.do">Add Movie</a></li>
-			<li><a href="editMovie.do">Edit Movie</a></li>
-		</ul>
-	</div>
+<jsp:include page="_navbar.jsp"></jsp:include>
+<div class="container-fluid">
 	<c:choose>
 		<c:when test="${!empty(movie)}">
 
 
-			<h1>${movie.title}</h1>
-
+			<h1 class="page-header">${movie.title}</h1>
+			<div class="row">
+			<div class="col-md-4">
 			<img alt="${movie.title }"
-				src="https://upload.wikimedia.org/wikipedia${movie.picture }" />
-			<section>
-			<div id="movie">
-				<table>
-					<tr>
-						<th>Year:</th>
-						<td>${movie.yearMade}</td>
-					</tr>
-					<tr>
-						<th>Director:</th>
-						<td>${movie.director.firstName}</td>
-						<td>${movie.director.lastName}</td>
-					</tr>
-					<tr>
-						<th>Genre:</th>
-						<c:forEach var="genre" items="${movie.genre}">
-							<td>${genre}</td>
-						</c:forEach>
-					</tr>
-				</table>
+				src="https://upload.wikimedia.org/wikipedia${movie.picture }" class="img-responsive" height="250px" />
 			</div>
-			<br>
-			<div id="actors">
+			<div class="col-md-4">
+			<div>
+				<h2>Year</h2>
+				<h4>${movie.yearMade}</h4>
+				<h2>Director</h2>
+				<h4>${movie.director.firstName} ${movie.director.lastName}</h4>
+						<h2>Genre</h2>
+						<ul>
+						<c:forEach var="genre" items="${movie.genre}">
+							<li><h4>${genre}</h4></li>
+						</c:forEach>
+						</ul>
+				</div>
+			</div>
+			<div class="col-md-4">
 				<table>
 					<tr>
 						<th colspan="2">Actors</th>
@@ -77,12 +66,13 @@
 				</table>
 
 			</div>
-			</section>
+		</div>
 		</c:when>
 		<c:otherwise>
 			<h1>Movie Not Found. Try Again</h1>
 			<a href="index.html">Click Here</a>
 		</c:otherwise>
 	</c:choose>
+	</div>
 </body>
 </html>
