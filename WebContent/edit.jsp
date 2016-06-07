@@ -35,8 +35,8 @@
 				<td>${movie.yearMade}</td>
 				<td>${movie.director.firstName} ${movie.director.lastName }</td>
 				<td><form action="deleteMovie.do" method="POST">
-						<input  type="hidden" name="title" value="${movie.title}" /> <input
-							id="submit"type="submit" value="Delete" />
+						<input  type="hidden" name="title" value="${movie.title}" /> 
+						<input id="submit" type="submit" value="Delete" />
 					</form></td>
 			</tr>
 		</c:forEach>

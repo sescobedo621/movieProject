@@ -1,0 +1,18 @@
+body{
+	background-color: #6d6969;
+	color: red;
+	text-shadow: 2px 2px black;
+}
+a{
+	color: red;
+	text-shadow: 2px 2px black;
+}
+a:hover{
+	color: pink;
+	text-decoration: none;
+	text-shadow: 2px 2px black;
+}
+
+.genre img{
+	max-width: 200px;
+}

@@ -3,7 +3,7 @@ package movie;
 public class Actor extends Person {
 	
 	public Actor(){
-		this("","");
+		super("","");
 	}
 	
 	public Actor(String fn, String ln){

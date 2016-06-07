@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<jsp:include page="_styles.jsp"></jsp:include>
 <title>Search By Name</title>
 </head>
 <body>
