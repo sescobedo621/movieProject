@@ -1,16 +1,16 @@
 body{
 	background-color: #565252;
 	color: #c30a0a;
-	text-shadow: 2px 2px black;
+	text-shadow: 1px 1px black;
 }
 a{
 	color: #880000;
-	text-shadow: 2px 2px black;
+	text-shadow: 1px 1px black;
 }
 a:hover{
 	color: red;
 	text-decoration: none;
-	text-shadow: 2px 2px black;
+	text-shadow: 1px 1px black;
 }
 
 .genre{
@@ -23,4 +23,8 @@ a:hover{
 }
 .genre h3{
 	text-align: center;
+}
+
+#movieList{
+	width: 90%;
 }
