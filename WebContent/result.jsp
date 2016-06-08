@@ -37,31 +37,24 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<table>
-					<tr>
-						<th colspan="2">Actors</th>
-					</tr>
+				
+					
+						<h2>Actors</h2>
 					<c:forEach var="actor" items="${movie.actors}">
-						<tr>
-							<td>${actor.firstName }</td>
-							<td>${actor.lastName }</td>
-							<td><form action="deleteActor.do" method="POST">
+
+							<h4>${actor.firstName } ${actor.lastName } <form action="deleteActor.do" method="POST">
 									<input type="hidden" name="lastName" value="${actor.lastName}" />
 									<input type="hidden" name="firstName"
 										value="${actor.firstName}" /> <input type="hidden"
 										name="title" value="${movie.title }" /> <input id="submit"
-										type="submit" value="Delete Actor" />
-								</form></td>
-						</tr>
+										type="submit" value="Delete Actor"  class="btn btn-danger"/>
+								</form></h4>
+							
 					</c:forEach>
-					<tr>
-						<td></td>
-						<td></td>
-						<td><form action="addActor.do" method="GET">
+					<form action="addActor.do" method="GET">
 								<input type="hidden" name="name" value="${movie.title}">
-								<input id="submit" type="submit" value="Add Actor" />
+								<input id="submit" type="submit" value="Add Actor" class="btn btn-danger" />
 							</form></td>
-					</tr>
 
 				</table>
 
