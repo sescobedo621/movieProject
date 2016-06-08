@@ -18,7 +18,7 @@
 		</ul>
       <form class="navbar-form navbar-left" action="GetMovie.do" method="GET">
        <div class="form-group">
-         <input type="text" name="name" placeholder="Movie Title"/>
+         <input type="text" name="name" class="form-control" placeholder="Movie Title"/>
     </div>
      <input id="submit" type="submit"  value="Submit" class="btn btn-default"/>
 		</div>

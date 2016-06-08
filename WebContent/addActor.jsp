@@ -52,6 +52,8 @@
 			</div>
 		</div>
 <div class="row">
+<div class="form">
+
 	<form:form action="addActor.do" modelAttribute="actor">
 	<div class="form-group">
 		<input type="hidden" name="title" value="${movie.title}" />
@@ -70,6 +72,7 @@
 		</div>
 		<input id="submit" type="submit" name="Add Actor" class="btn btn-danger" />
 	</form:form>
+	</div>
 	</div>
 	</div>
 </body>

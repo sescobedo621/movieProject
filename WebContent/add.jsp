@@ -5,40 +5,60 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<jsp:include page="_styles.jsp"></jsp:include>
 <title>Add Movie</title>
 </head>
 <body>
-	<div id="navBar">
-		<ul>
-			<li class="header"><a href="index.html">redCarpetClub</a></li>
-			<li><a href="GetGenre.do?all=AllMovies"> List All Movies</a></li>
-			<li><a href="name.html">Search By Name</a></li>
-			<li><a href="addMovie.do">Add Movie</a></li>
-			<li><a href="editMovie.do">Edit Movie</a></li>
-		</ul>
-	</div>
-	<div id="form">
+	<jsp:include page="_navbar.jsp"></jsp:include>
+	<div class="container-fluid">
+	<div class="form">
 		<form:form action="NewMovie.do" modelAttribute="movie">
-			<p>
-				Title:
-				<form:input path="title" type="text" name="title" size="50" />
+	 <div class="form-group">
+    <label for="title" class="col-sm-2 control-label">
+				Title</label>
+				<div class="col-sm-10">
+				<form:input path="title" type="text" name="title" class="form-control" placeholder="Title" />
 				<form:errors path="title" />
-				Year Made:
-				<form:input path="yearMade" type="text" name="yearMade" size="10" />
+				</div>
+				</div>
+		 <div class="form-group">
+    <label for="yearMade" class="col-sm-2 control-label">Year Made</label>
+    <div class="col-sm-10">
+				<form:input path="yearMade" type="text" name="yearMade" class="form-control" placeholder="Year Made" />
 				<form:errors path="yearMade" />
-			</p>
-			<p>Genre:</p>
-			<ul>
-				<li><input class="checkbox" type="checkbox" name="genre" value="Action" />Action</li>
-				<li><input class="checkbox" type="checkbox" name="genre" value="Adventure" />Adventure</li>
-				<li><input class="checkbox" type="checkbox" name="genre" value="Comedy" />Comedy</li>
-				<li><input class="checkbox" type="checkbox" name="genre" value="Drama" />Drama</li>
-				<li><input class="checkbox" type="checkbox" name="genre" value="Romance">Romance</li>
-				<li><input class="checkbox" type="checkbox" name="genre" value="Sci-Fi" />Sci-Fi</li>
-			</ul>
-			<p><input id="submit" type="submit" value="Submit" /></p>
+	</div>
+	</div>
+	<div class="form-group">
+	<label for="genre" class="col-sm-2 control-label">Genre</label>
+	<div class="col-sm-10">
+		<div class="row">
+			<div class="col-sm-2">
+				<label><input class="checkbox" type="checkbox" name="genre" value="Action" />Action</label>
+			</div>
+			<div class="col-sm-2">
+				<label><input class="checkbox" type="checkbox" name="genre" value="Adventure"  />Adventure</label>
+			</div>
+			<div class="col-sm-2">
+				<label><input class="checkbox" type="checkbox" name="genre" value="Comedy"  />Comedy</label>
+			</div>
+			<div class="col-sm-2">
+				<label><input class="checkbox" type="checkbox" name="genre" value="Drama"  />Drama</label>
+			</div>
+			<div class="col-sm-2">
+				<label><input class="checkbox" type="checkbox" name="genre" value="Romance" >Romance</label>
+			</div>
+			<div class="col-sm-2">
+				<label><input class="checkbox" type="checkbox" name="genre" value="Sci-Fi" />Sci-Fi</label>
+			</div>
+			</div>
+		</div>
+	</div>
+	</div>
+			<div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+			<input id="submit" type="submit" value="Submit"  class="btn btn-danger" />
 		</form:form>
+	</div>
 	</div>
 </body>
 </html>
