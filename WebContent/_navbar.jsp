@@ -21,7 +21,11 @@
          <input type="text" name="name" class="form-control" placeholder="Movie Title"/>
     </div>
      <input id="submit" type="submit"  value="Submit" class="btn btn-danger"/>
-		</div>
-
   </form>
+   <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://shelbyescobedo.com">Shelby Escobedo</a></li>
+
+    </ul>
+  </div>
+  </div>
 	</nav>
