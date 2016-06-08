@@ -5,38 +5,30 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<jsp:include page="_styles.jsp"></jsp:include>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Edit Movies</title>
 </head>
 <body>
-<div id="navBar">
-		<ul>
-			<li class="header"><a href="index.html">redCarpetClub</a></li>
-			<li><a href="GetGenre.do?all=AllMovies"> List All Movies</a></li>
-			<li><a href="name.html">Search By Name</a></li>
-			<li><a href="addMovie.do">Add Movie</a></li>
-			<li><a href="editMovie.do">Edit Movie</a></li>
-		</ul>
-	</div>
-	<div id="movieList">
-	<table>
+<jsp:include page="_navbar.jsp"></jsp:include>
+	<div class="container-fluid" id="movieList">
+	<table class="table">
 		<tr>
-			<th>Poster</th>
-			<th>Title</th>
-			<th>Year</th>
-			<th>Director</th>
+			<th><h2>Poster</h2></th>
+			<th><h2>Title</h2></th>
+			<th><h2>Year</h2></th>
+			<th><h2>Director</h2></th>
 			<th> </th>
 		</tr>
 		<c:forEach var="movie" items="${movies}">
 			<tr>
-				<td><img alt="${movie.title }" src="https://upload.wikimedia.org/wikipedia${movie.picture }"/></td>
-				<td><a href="editMovie.do?name=${movie.title}">${movie.title}</a></td>
-				<td>${movie.yearMade}</td>
-				<td>${movie.director.firstName} ${movie.director.lastName }</td>
+				<td><img alt="${movie.title }" src="https://upload.wikimedia.org/wikipedia${movie.picture }" class="img-thumbnail" width="100px"/></td>
+				<td><a href="editMovie.do?name=${movie.title}"><h4>${movie.title}</h4></a></td>
+				<td><h4>${movie.yearMade}</h4></td>
+				<td><h4>${movie.director.firstName} ${movie.director.lastName }</h4></td>
 				<td><form action="deleteMovie.do" method="POST">
 						<input  type="hidden" name="title" value="${movie.title}" /> 
-						<input id="submit" type="submit" value="Delete" />
+						<input id="submit" type="submit" value="Delete" class="btn btn-danger" />
 					</form></td>
 			</tr>
 		</c:forEach>
