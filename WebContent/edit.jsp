@@ -14,18 +14,18 @@
 	<div class="container-fluid" id="movieList">
 	<table class="table">
 		<tr>
-			<th><h2>Poster</h2></th>
-			<th><h2>Title</h2></th>
-			<th><h2>Year</h2></th>
-			<th><h2>Director</h2></th>
+			<th>Poster</th>
+			<th>Title</th>
+			<th>Year</th>
+			<th>Director</th>
 			<th> </th>
 		</tr>
 		<c:forEach var="movie" items="${movies}">
 			<tr>
 				<td><img alt="${movie.title }" src="https://upload.wikimedia.org/wikipedia${movie.picture }" class="img-thumbnail" width="100px"/></td>
-				<td><a href="editMovie.do?name=${movie.title}"><h4>${movie.title}</h4></a></td>
-				<td><h4>${movie.yearMade}</h4></td>
-				<td><h4>${movie.director.firstName} ${movie.director.lastName }</h4></td>
+				<td><a href="editMovie.do?name=${movie.title}">${movie.title}</a></td>
+				<td>${movie.yearMade}</td>
+				<td>${movie.director.firstName} ${movie.director.lastName }</td>
 				<td><form action="deleteMovie.do" method="POST">
 						<input  type="hidden" name="title" value="${movie.title}" /> 
 						<input id="submit" type="submit" value="Delete" class="btn btn-danger" />

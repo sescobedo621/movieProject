@@ -1,6 +1,6 @@
 body{
 	color: #c30a0a;
-	text-shadow: 1px 1px black;
+
 }
 
 html,
@@ -9,7 +9,6 @@ body {
 }
 a{
 	color: #880000;
-	text-shadow: 1px 1px black;
 }
 a:hover{
 	color: red;

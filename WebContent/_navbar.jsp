@@ -1,3 +1,4 @@
+<meta name="viewport" content="width=device-width, user-scalable=no">
 <nav class="navbar navbar-inverse" id="navBar">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->

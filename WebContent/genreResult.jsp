@@ -15,19 +15,19 @@
 	<table class="table">
 	<thead>
 		<tr>
-			<th><h2>Poster</h2></th>
-			<th><h2>Title</h2></th>
-			<th><h2>Year</h2></th>
-			<th><h2>Director</h2></th>
+			<th>Poster</th>
+			<th>Title</th>
+			<th>Year</th>
+			<th>Director</th>
 		</tr>
 	</thead>
 	<tbody>
 		<c:forEach var="movie" items="${genres}">
 			<tr>
-				<td><img alt="${movie.title }" src="https://upload.wikimedia.org/wikipedia${movie.picture }" class="img-thumbnail" width="100px" /></td>
-				<td><h4><a href="GetMovie.do?name=${movie.title}">${movie.title}</a></h4></td>
-				<td><h4>${movie.yearMade}</h4></td>
-				<td><h4>${movie.director.firstName} ${movie.director.lastName }</h4></td>
+				<td><img alt="${movie.title }" src="https://upload.wikimedia.org/wikipedia${movie.picture }" class="img-responsive img-thumbnail" width="100px" /></td>
+				<td><a href="GetMovie.do?name=${movie.title}">${movie.title}</a></td>
+				<td>${movie.yearMade}</td>
+				<td>${movie.director.firstName} ${movie.director.lastName }</td>
 			</tr>
 		</c:forEach>
 		</tbody>
