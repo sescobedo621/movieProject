@@ -4,27 +4,45 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<jsp:include page="_styles.jsp"></jsp:include>
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Edit Movie</title>
 </head>
 <body>
-<div id="navBar">
-		<ul>
-			<li class="header"><a href="index.html">redCarpetClub</a></li>
-			<li><a href="GetGenre.do?all=AllMovies"> List All Movies</a></li>
-			<li><a href="name.html">Search By Name</a></li>
-			<li><a href="addMovie.do">Add Movie</a></li>
-			<li><a href="editMovie.do">Edit Movie</a></li>
-		</ul>
-	</div>
+<jsp:include page="_navbar.jsp"></jsp:include>
+<div class="container-fluid">
 	<form action="updateMovie.do" method="POST">
+
 	<input type="hidden" name="afiNum" value="${movie.afiNum}">
-	<p>Title: <input  type="text" name="title" value="${movie.title}">
-	  <input type= "text" name="yearMade" value="${movie.yearMade}" size="10"></p>
-	<p>Director: <input type="text" name="director.firstName" value="${movie.director.firstName}"/>
-	<input type="text" name="director.lastName" value="${movie.director.lastName}"/></p>
-	<input id="submit" type="submit" value="Update"/>
+	<div class="form-group">
+    <label for="title" class="col-sm-2 control-label">
+				Title</label>
+	<div class="col-sm-10">
+	 <input  type="text" name="title" value="${movie.title}" class="form-control">
+	 </div>
+	 </div>
+	 <div class="form-group">
+	 <label for="yearMade" class="col-sm-2 control-label">Year Made</label>
+    <div class="col-sm-10">
+	  <input type= "text" name="yearMade" value="${movie.yearMade}" class="form-control">
+	  </div>
+	  </div>
+	<div class="form-group">
+    <label for="director" class="col-sm-2 control-label">Director</label>
+    <div class="col-sm-5"> 
+    <input type="text" name="director.firstName" value="${movie.director.firstName}"  class="form-control"/>
+    </div>
+    <div class="col-sm-5">
+	<input type="text" name="director.lastName" value="${movie.director.lastName}"  class="form-control"/>
+	</div>
+	</div>
+	<div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+	<input id="submit" type="submit" value="Update" class="btn btn-danger"/>
+	</div>
+	</div>
 	</form> 
+</div>
 </body>
 </html>
