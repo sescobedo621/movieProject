@@ -1,7 +1,11 @@
 body{
-	background-color: #565252;
 	color: #c30a0a;
 	text-shadow: 1px 1px black;
+}
+
+html,
+body {
+  height: 100%;
 }
 a{
 	color: #880000;
@@ -12,7 +16,19 @@ a:hover{
 	text-decoration: none;
 	text-shadow: 1px 1px black;
 }
-
+label{
+	color: #c30a0a;
+}
+form input:text{
+	color: #c30a0a;
+}
+.full-bg-img{
+	background: url("../imgs/film.jpg") no-repeat center center fixed;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 .genre{
 	width: 90%;
 }

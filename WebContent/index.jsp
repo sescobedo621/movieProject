@@ -2,12 +2,30 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no">
 <jsp:include page="_styles.jsp"></jsp:include>
 <title>Movies</title>
 </head>
 <body>
+<header>
 <jsp:include page="_navbar.jsp"></jsp:include>
-<div class="container-fluid genre">
+</header>
+<section class="full-bg-img">
+       <div class="view">
+       <div class="mask rgba-black-light">
+        <div class="container">
+            <div class="verticalcenter text-center white-text">
+                <h1>redCarpetClub</h1>
+                <!--Call to action buttons-->
+                <a href="#genre" class="btn btn-danger waves-effect waves-light">Search By Genre</a>
+                <a href="GetGenre.do?all=AllMovies" class="btn btn-danger waves-effect waves-light">View All Movies</a>
+            </div>
+            </div>
+            </div>
+        </div>
+    </section>
+  <main>
+<div class="container-fluid genre" id="genre">
 <h1>Pick A Genre:</h1>
 	<div class="row">
 		<div class="col-xs-4 col-sm-4 col-md-4">
@@ -50,7 +68,7 @@
 		</div>
 	</div>
 </div>
-
+</main>
 
 </body>
 </html>

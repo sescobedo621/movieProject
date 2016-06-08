@@ -7,12 +7,26 @@
 <jsp:include page="_styles.jsp"></jsp:include>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Edit Movie</title>
+<title>Update ${movie.title}</title>
 </head>
 <body>
 <jsp:include page="_navbar.jsp"></jsp:include>
+	<section class="full-bg-img">
+       <div class="view">
+       <div class="mask rgba-black-light">
+        <div class="container">
+            <div class="verticalcenter text-center white-text">
+                <h1>redCarpetClub</h1>
+                <!--Call to action buttons-->
+                <a href="#update" class="btn btn-danger waves-effect waves-light">Update ${movie.title}</a>
+            </div>
+            </div>
+            </div>
+        </div>
+    </section>
+ <main>
 <div class="container-fluid">
-	<form action="updateMovie.do" method="POST">
+	<form action="updateMovie.do" method="POST" id="update">
 
 	<input type="hidden" name="afiNum" value="${movie.afiNum}">
 	<div class="form-group">
@@ -44,5 +58,6 @@
 	</div>
 	</form> 
 </div>
+</main>
 </body>
 </html>

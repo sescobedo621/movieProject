@@ -10,8 +10,22 @@
 </head>
 <body>
 	<jsp:include page="_navbar.jsp"></jsp:include>
+	<section class="full-bg-img">
+       <div class="view">
+       <div class="mask rgba-black-light">
+        <div class="container">
+            <div class="verticalcenter text-center white-text">
+                <h1>redCarpetClub</h1>
+                <!--Call to action buttons-->
+                <a href="#add" class="btn btn-danger waves-effect waves-light">Add A Movie</a>
+            </div>
+            </div>
+            </div>
+        </div>
+    </section>
+	<main>
 	<div class="container-fluid">
-	<div class="form">
+	<div class="form" id="add">
 		<form:form action="NewMovie.do" modelAttribute="movie">
 	 <div class="form-group">
     <label for="title" class="col-sm-2 control-label">
@@ -60,5 +74,6 @@
 		</form:form>
 	</div>
 	</div>
+	</main>
 </body>
 </html>

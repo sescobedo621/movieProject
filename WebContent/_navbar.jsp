@@ -20,7 +20,7 @@
        <div class="form-group">
          <input type="text" name="name" class="form-control" placeholder="Movie Title"/>
     </div>
-     <input id="submit" type="submit"  value="Submit" class="btn btn-default"/>
+     <input id="submit" type="submit"  value="Submit" class="btn btn-danger"/>
 		</div>
 
   </form>
