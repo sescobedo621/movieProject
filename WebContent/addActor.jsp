@@ -6,74 +6,71 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
-<title>Insert title here</title>
+<jsp:include page="_styles.jsp"></jsp:include>
+<title>${movie.title} | Add Actor</title>
 </head>
 <body>
-	<div id="navBar">
-		<ul>
-			<li class="header"><a href="index.html">redCarpetClub</a></li>
-			<li><a href="GetGenre.do?all=AllMovies"> List All Movies</a></li>
-			<li><a href="name.html">Search By Name</a></li>
-			<li><a href="addMovie.do">Add Movie</a></li>
-			<li><a href="editMovie.do">Edit Movie</a></li>
-		</ul>
-	</div>
-	<h1>${movie.title}</h1>
+	<jsp:include page="_navbar.jsp"></jsp:include>
+	<div class="container-fluid">
 
-	<img alt="${movie.title }"
-		src="https://upload.wikimedia.org/wikipedia${movie.picture }" />
-	<section>
-	<div id="movie">
-		<table>
-			<tr>
-				<th>Year:</th>
-				<td>${movie.yearMade}</td>
-			</tr>
-			<tr>
-				<th>Director:</th>
-				<td>${movie.director.firstName}</td>
-				<td>${movie.director.lastName}</td>
-			</tr>
-			<tr>
-				<th>Genre:</th>
-				<c:forEach var="genre" items="${movie.genre}">
-					<td>${genre}</td>
-				</c:forEach>
-			</tr>
-		</table>
-	</div>
-	<br>
-	<div id="actors">
-		<table>
-			<tr>
-				<th colspan="2">Actors</th>
-			</tr>
-			<c:forEach var="actor" items="${movie.actors}">
-				<tr>
-					<td>${actor.firstName }</td>
-					<td>${actor.lastName }</td>
-					<td><form action="deleteActor.do" method="POST">
-							<input type="hidden" name="lastName" value="${actor.lastName}" />
-							<input type="hidden" name="firstName" value="${actor.firstName}" />
-							<input type="hidden" name="title" value="${movie.title }" /> <input
-								id="submit" type="submit" value="Delete Actor" />
-						</form></td>
-				</tr>
-			</c:forEach>
-		</table>
-	</div>
-	</section>
+			<h1 class="page-header">${movie.title}</h1>
+			<div class="row">
+			<div class="col-md-4">
+			<img alt="${movie.title }"
+				src="https://upload.wikimedia.org/wikipedia${movie.picture }" class="img-responsive" height="250px" />
+			</div>
+			<div class="col-md-4">
+			<div>
+				<h2>Year</h2>
+				<h4>${movie.yearMade}</h4>
+				<h2>Director</h2>
+				<h4>${movie.director.firstName} ${movie.director.lastName}</h4>
+						<h2>Genre</h2>
+						<ul>
+						<c:forEach var="genre" items="${movie.genre}">
+							<li><h4>${genre}</h4></li>
+						</c:forEach>
+						</ul>
+				</div>
+			</div>
+			<div class="col-md-4">
+				
+					
+						<h2>Actors</h2>
+					<c:forEach var="actor" items="${movie.actors}">
+
+							<h4>${actor.firstName } ${actor.lastName } <form action="deleteActor.do" method="POST">
+									<input type="hidden" name="lastName" value="${actor.lastName}" />
+									<input type="hidden" name="firstName"
+										value="${actor.firstName}" /> <input type="hidden"
+										name="title" value="${movie.title }" /> <input id="submit"
+										type="submit" value="Delete Actor"  class="btn btn-danger"/>
+								</form></h4>
+							
+					</c:forEach>
+
+			</div>
+		</div>
+<div class="row">
 	<form:form action="addActor.do" modelAttribute="actor">
-	<p>
+	<div class="form-group">
 		<input type="hidden" name="title" value="${movie.title}" />
-		First Name: <form:input path="firstName" type="text" name="firstName" size="25"/>
+		<form:input path="firstName" type="text" name="firstName" class="form-control" placeholder="First Name"/>
 		<form:errors path="firstName" />
-		Last Name: <form:input path="lastName" type="text" name="lastName" size="25" /></p>
+		</div>
+		<div class="form-group">
+		<form:input path="lastName" type="text" name="lastName" class="form-control" placeholder="Last Name" />
 		<form:errors path="lastName" />
-		<p>Birth Year: <input type="text" name="birthYear" size="10" />
-		Death Year: <input type="text" name="deathYear"  size="10"/></p>
-		<input id="submit" type="submit" name="Add Actor" />
+		</div>
+		<div class="form-group">
+		<input type="text" name="birthYear" placeholder="Birth Year" class="form-control" />
+		</div>
+		<div class="form-group">
+		<input type="text" name="deathYear" placeholder="Death Year" class="form-control"/>
+		</div>
+		<input id="submit" type="submit" name="Add Actor" class="btn btn-danger" />
 	</form:form>
+	</div>
+	</div>
 </body>
 </html>

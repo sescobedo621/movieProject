@@ -54,16 +54,13 @@
 					<form action="addActor.do" method="GET">
 								<input type="hidden" name="name" value="${movie.title}">
 								<input id="submit" type="submit" value="Add Actor" class="btn btn-danger" />
-							</form></td>
-
-				</table>
+							</form>
 
 			</div>
 		</div>
 		</c:when>
 		<c:otherwise>
 			<h1>Movie Not Found. Try Again</h1>
-			<a href="index.html">Click Here</a>
 		</c:otherwise>
 	</c:choose>
 	</div>
